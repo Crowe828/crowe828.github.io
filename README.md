@@ -1,6 +1,9 @@
 # responsive-portfolio
 This is a responsive portfolio built using HTML, CSS, and Bootstrap so that it is viewable on varying-sized viewports.
 
+# Assignment
+This will be changed later, using it as a placeholder for consistency (and ease of use).
+
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
