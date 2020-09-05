@@ -15,12 +15,12 @@ body {
 
 }
 
-h2 {
+.my-name {
   background-color: rgb(41, 174, 179);
   color: white;
   font-family: 'Times New Roman', Times, serif;
   padding: 9px;
-  margin: -10px;
+  margin: -9px;
 
 }
 
@@ -29,4 +29,17 @@ h2 {
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: lightgray;
+}
+
+.about-me-heading {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(41, 174, 179)
+}
+
+.about-me {
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+
+
 }
