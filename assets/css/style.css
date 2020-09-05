@@ -14,3 +14,19 @@ body {
   font-size: 10px;
 
 }
+
+h2 {
+  background-color: rgb(41, 174, 179);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 9px;
+  margin: -10px;
+
+}
+
+.navbar {
+
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgray;
+}
