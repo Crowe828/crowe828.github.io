@@ -5,7 +5,7 @@ body {
 .fixed-bottom {
 
   text-align: center;
-  color: white;
+  color: lightgray;
   background-color: gray;
   padding: 15px;
   border-top-style: solid;
@@ -34,6 +34,7 @@ body {
 .about-me-heading {
   font-family: 'Times New Roman', Times, serif;
   color: rgb(41, 174, 179)
+  
 }
 
 .about-me {
@@ -42,4 +43,31 @@ body {
   border-color: lightgray;
 
 
+}
+
+.my-face {
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.about-me-text {
+  font-size: 16px;
+  color: grey;
+}
+
+.portfolio-button {
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: lightgray; 
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: lightgray;
+}
+
+.border-needed {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: lightgray;
+  padding-top: 5px;
 }
