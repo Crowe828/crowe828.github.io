@@ -46,9 +46,7 @@ body {
 }
 
 .my-face {
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  margin: 10px;;
 }
 
 .about-me-text {
@@ -65,9 +63,42 @@ body {
   border-right-color: lightgray;
 }
 
-.border-needed {
+.about-me-border {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: lightgray;
   padding-top: 5px;
+}
+
+@media screen and (max-width: 640px) {
+  
+  .my-name {
+    background-color: rgb(41, 174, 179);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 9px;
+    margin: -9px;
+  
+  }
+  
+  .navbar {
+  
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: lightgray;
+
+  }
+  
+  .about-me-text {
+    float: left;
+  
+  }
+  
+  .my-face {
+    width: 80%;
+    height: 80%;
+    margin: 20px;
+
+  }
+  
 }
