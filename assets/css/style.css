@@ -30,10 +30,10 @@ footer {
 }
 
 .navbar {
-
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: lightgray;
+
 }
 
 .about-me-heading {
@@ -69,15 +69,17 @@ footer {
   border-right-color: lightgray;
 }
 
-@media screen and (max-width: 640px) {
-  .my-name {
 
-      /* background-color: rgb(41, 174, 179);
-      color: white;
-      font-family: 'Times New Roman', Times, serif;
-      padding: 9px;
-      margin: -9px; */
+.header {  background-color: rgb(41, 174, 179);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
   
   }
   
-}
+  @media screen and (max-width: 640px) {
+
+
+  }

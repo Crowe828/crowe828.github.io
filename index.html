@@ -24,12 +24,13 @@
 
 <body>
   
-  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <div class="d-md-none header">Christian Rowe</div>
+
+  <nav class="navbar navbar-expand-sm navbar-light bg-light d-none d-xs-none d-sm-none d-md-block">
     
     <div class="container">
 
-      <div class="navbar my-name">Christian Rowe</div>
-
+          <div class="navbar my-name">Christian Rowe</div>
 
       <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         
@@ -37,9 +38,31 @@
       
       </button> -->
       
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <!-- <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup"> -->
+
+      <div class="justify-content-end">  
+
+        <div class="navbar-nav navbar-menu">
+          
+          <a class="nav-link active" href="#">About<span class="sr-only">(current)</span></a>
+          
+          <a class="nav-link portfolio-button" href="#">Portfolio</a>
+          
+          <a class="nav-link" href="#">Contact</a>
         
-        <div class="navbar-nav">
+        </div> 
+
+      </div>
+
+    </div>
+  
+  </nav>
+
+  <nav class="navbar navbar-expand navbar-light bg-light d-md-none">
+    
+    <div class="container justify-content-center">
+
+        <div class="navbar-nav navbar-menu">
           
           <a class="nav-link active" href="#">About<span class="sr-only">(current)</span></a>
           
@@ -48,9 +71,7 @@
           <a class="nav-link" href="#">Contact</a>
         
         </div>
-      
-      </div>
-    
+
     </div>
   
   </nav>
