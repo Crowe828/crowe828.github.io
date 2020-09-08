@@ -95,6 +95,13 @@ footer {
   
 }
 
+.submit-button {
+  text-align: center;
+  background-color: rgb(41, 174, 179);
+  color: white;
+  margin-bottom: 20px;
+}
+
 /* @media screen and (max-width: 640px) {
 
 } */
