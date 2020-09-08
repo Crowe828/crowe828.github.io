@@ -75,14 +75,11 @@ footer {
   text-align: center;
 }
 
-.left-image {
-  margin: auto;
-  display: block;
-}
+.card-container {
+  position: relative;
+  padding: 0;
+  margin-bottom: 20px;
   
-.right-image {
-  margin: auto;
-  display: block;
 }
 
 .image-text {
@@ -92,8 +89,9 @@ footer {
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   padding: 5px;
-  margin: auto;
   width: 200px;
+  position: absolute;
+  bottom: 20px;
   
 }
 
