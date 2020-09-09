@@ -9,17 +9,17 @@ This portfolio has been built using HTML, CSS, and the Bootstrap framework to be
 
 ## Images
 
-* ![About Me Big](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/about-me-big.png)
+* About Me - medium or larger viewports ![About Me Big](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/about-me-big.png)
 
-* ![About Me Small](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/about-me-small.png)
+* About Me - small or extra small viewports ![About Me Small](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/about-me-small.png)
 
-* ![Portfolio Big](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/portfolio-big.png)
+* Portfolio - medium or larger viewports ![Portfolio Big](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/portfolio-big.png)
 
-* ![Portfolio Small](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/portfolio-small.png)
+* Portfolio - small or extra small viewports ![Portfolio Small](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/portfolio-small.png)
 
-* ![Contact Big](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/contact-big.png)
+* Contact - medium or larger viewports ![Contact Big](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/contact-big.png)
 
-* ![Contact Small](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/contact-small.png)
+* Contact - small or extra small viewports ![Contact Small](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/contact-small.png)
 
 
 ## Built With
