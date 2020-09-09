@@ -100,7 +100,7 @@ footer {
 }
 
 /* The text on top of each image in the portfolio */
-.image-text {
+.image-text, .image-text-2 {
   text-align: center;
   background-color: rgb(41, 174, 179);
   color: white;
@@ -112,6 +112,11 @@ footer {
   bottom: 20px;
 }
 
+/* Width of the image-text must change due to the size of the images increasing */
+.image-text-2 {
+  width: 400px;
+}
+
 /* The submit button on the Contact page */
 .submit-button {
   text-align: center;
@@ -121,18 +126,22 @@ footer {
 }
 
 /* Styling links to social media */
+/* Links are normally light grey */
 a:link {
   color: lightgrey;
 }
 
+/* Once visited they will remain grey */
 a:visited {
   color: lightgrey;
 }
 
+/* When hovering over the links, they will be midnight blue */
 a:hover {
-  color: rgb(41, 144, 148);
+  color: midnightblue;
 }
 
+/* clicking on the link makes it the following shade of blue/green */
 a:active {
-  color: midnightblue;
+  color: rgb(41, 144, 148);
 }
