@@ -73,10 +73,16 @@ footer {
   margin: 10px;
 }
 
-/* Picture of me on the Index page */
+/* Picture of me on the Index page for medium or larger viewports */
 .my-face {
   float: left;
   margin-right: 10px;
+}
+/* Picture of me on the Index page for small or extra small viewports*/
+.my-face-2 {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 /* Main text within the About Me section on the Index */
