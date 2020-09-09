@@ -24,22 +24,27 @@
 
 <body>
   
+  <!-- Header only appears on small and extra small viewports -->
   <div class="d-md-none header">Christian Rowe</div>
 
+  <!-- Navbar which appears on medium through extra large viewports -->
   <nav class="navbar navbar-expand-sm navbar-light bg-light d-none d-xs-none d-sm-none d-md-block">
     
     <div class="container">
 
-          <div class="navbar my-name">Christian Rowe</div>
+      <!-- My name which appears in the Navbar -->
+      <div class="navbar my-name">Christian Rowe</div>
 
       <div class="justify-content-end">  
 
+        <!-- About, Portfolio, and Contact buttons -->
         <div class="navbar-nav navbar-menu">
           
           <a class="nav-link" href="index.html">About</a>
           
           <a class="nav-link portfolio-button" href="portfolio.html">Portfolio</a>
           
+          <!-- Contact button is currently active  -->
           <a class="nav-link active" href="#">Contact<span class="sr-only">(current)</span></a>
         
         </div> 
@@ -50,17 +55,20 @@
   
   </nav>
 
+  <!-- Navbar which appears on small and extra small viewports -->
   <nav class="navbar navbar-expand navbar-light bg-light d-md-none">
     
     <div class="container justify-content-center">
 
-        <div class="navbar-nav navbar-menu">
+       <!-- About, Portfolio, and Contact buttons on the secdond Navbar -->
+      <div class="navbar-nav navbar-menu">
           
-          <a class="nav-link" href="index.html">About</a>
+        <a class="nav-link" href="index.html">About</a>
           
-          <a class="nav-link portfolio-button" href="portfolio.html">Portfolio</a>
-          
-          <a class="nav-link active" href="#">Contact<span class="sr-only">(current)</span></a>
+        <a class="nav-link portfolio-button" href="portfolio.html">Portfolio</a>
+        
+        <!-- Contact button is currently active -->
+        <a class="nav-link active" href="#">Contact<span class="sr-only">(current)</span></a>
         
         </div>
 
@@ -68,26 +76,33 @@
   
   </nav>
   
+  <!-- Main container holding the Contact section -->
   <div class="container mt-4">
     
     <div class="row">
          
+      <!-- Container holding the rows and columns within the main container-->
       <div class="col-md-9 bg-white about-me">
 
+        <!-- Title of the main container -->
         <h2 class="my-heading"><strong>Contact</strong></h2>
         
         <hr>
 
+        <!-- Form to enter your contact info in -->
         <form>
 
+          <!-- Enter your name -->
           <div class="form-group">
 
+            
             <label for="formGroupExampleInput">Name</label>
 
             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
 
           </div>
 
+          <!-- Enter your email -->
           <div class="form-group">
 
             <label for="formGroupExampleInput2">Email</label>
@@ -98,6 +113,7 @@
 
         </form>
 
+        <!-- Text area with your message -->
         <div class="form-group">
 
           <label for="exampleFormControlTextarea1">Message</label>
@@ -110,6 +126,7 @@
 
           <div class="col-md-12">
 
+            <!-- Submit button -->
             <button type="button" class="btn submit-button">Submit</button>
 
           </div>
@@ -123,12 +140,14 @@
 
   </div> 
   
+  <!-- Footer which is fixed to the bottom of the viewport -->
   <footer>
         
     <p>&copy; Copyright</p>
   
   </footer>
   
+  <!-- JavaScript necessary for Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
