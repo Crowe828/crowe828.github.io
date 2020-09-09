@@ -90,7 +90,6 @@ footer {
   position: relative;
   padding: 0;
   margin-bottom: 20px;
-  
 }
 
 /* The text on top of each image in the portfolio */
@@ -104,7 +103,6 @@ footer {
   width: 200px;
   position: absolute;
   bottom: 20px;
-  
 }
 
 /* The submit button on the Contact page */
@@ -113,4 +111,21 @@ footer {
   background-color: rgb(41, 174, 179);
   color: white;
   margin-bottom: 20px;
+}
+
+/* Styling links to social media */
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: rgb(41, 144, 148);
+}
+
+a:active {
+  color: midnightblue;
 }
