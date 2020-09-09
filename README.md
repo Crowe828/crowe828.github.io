@@ -9,19 +9,17 @@ This portfolio has been built using HTML, CSS, and the Bootstrap framework to be
 
 ## Images
 
-* ![About Me](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/about-me-big.png)
+* ![About Me Big](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/about-me-big.png)
 
-* About Me page as viewed on medium or larger screens. <img src="../responsive-portfolio/assets/images/about-me-big.png" alt="About Me big screens">
+* ![About Me Small](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/about-me-small.png)
 
-* About Me page as viewed on small or extra small screens. <img src="../responsive-portfolio/assets/images/about-me-small.png" alt="About Me small screens">
+* ![Portfolio Big](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/portfolio-big.png)
 
-* Portfolio page as viewed on medium or larger screens. <img src="../responsive-portfolio/assets/images/portfolio-big.png" alt="Portfolio big screens">
+* ![Portfolio Small](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/portfolio-small.png)
 
-* Portfolio page as viewed on small or extra small screens. <img src="../responsive-portfolio/assets/images/portfolio-small.png" alt="Portfolio small screens">
+* ![Contact Big](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/contact-big.png)
 
-* Contact page as viewed on medium or larger screens. <img src="../responsive-portfolio/assets/images/contact-big.png" alt="Contact big screens">
-
-* Contact page as viewed on small or extra small screens. <img src="../responsive-portfolio/assets/images/contact-small.png" alt="Contact small screens">
+* ![Contact Small](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/contact-small.png)
 
 
 ## Built With
