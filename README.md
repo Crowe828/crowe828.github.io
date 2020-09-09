@@ -9,6 +9,8 @@ This portfolio has been built using HTML, CSS, and the Bootstrap framework to be
 
 ## Images
 
+* ![About Me page as viewed on medium or larger screens.](https://crowe828.github.com/images/about-me-big.png)
+
 * About Me page as viewed on medium or larger screens. <img src="../responsive-portfolio/assets/images/about-me-big.png" alt="About Me big screens">
 
 * About Me page as viewed on small or extra small screens. <img src="../responsive-portfolio/assets/images/about-me-small.png" alt="About Me small screens">
