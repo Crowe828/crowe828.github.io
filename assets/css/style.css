@@ -78,6 +78,7 @@ footer {
   float: left;
   margin-right: 10px;
 }
+
 /* Picture of me on the Index page for small or extra small viewports*/
 .my-face-2 {
   float: left;
@@ -121,11 +122,11 @@ footer {
 
 /* Styling links to social media */
 a:link {
-  color: white;
+  color: lightgrey;
 }
 
 a:visited {
-  color: white;
+  color: lightgrey;
 }
 
 a:hover {
