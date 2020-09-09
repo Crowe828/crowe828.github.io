@@ -24,20 +24,25 @@
 
 <body>
   
+  <!-- Header only appears on small and extra small viewports -->
   <div class="d-md-none header">Christian Rowe</div>
 
+  <!-- Navbar which appears on medium through extra large viewports -->
   <nav class="navbar navbar-expand-sm navbar-light bg-light d-none d-xs-none d-sm-none d-md-block">
     
     <div class="container">
-
-          <div class="navbar my-name">Christian Rowe</div>
+      
+      <!-- My name which appears in the Navbar -->
+      <div class="navbar my-name">Christian Rowe</div>
 
       <div class="justify-content-end">  
 
+        <!-- About Me, Portfolio, and Contact buttons -->
         <div class="navbar-nav navbar-menu">
           
           <a class="nav-link" href="index.html">About</a>
           
+          <!-- Portfolio button is currently active  -->
           <a class="nav-link active portfolio-button" href="#">Portfolio<span class="sr-only">(current)</span></a>
           
           <a class="nav-link" href="contact.html">Contact</a>
@@ -50,17 +55,20 @@
   
   </nav>
 
+  <!-- Navbar which appears on small and extra small viewports -->
   <nav class="navbar navbar-expand navbar-light bg-light d-md-none">
     
     <div class="container justify-content-center">
-
-        <div class="navbar-nav navbar-menu">
+      
+      <!-- About Me, Portfolio, and Contact buttons on the secdond Navbar -->
+      <div class="navbar-nav navbar-menu">
           
-          <a class="nav-link" href="index.html">About</a>
+        <a class="nav-link" href="index.html">About</a>
+        
+        <!-- Portfolio button is currently active -->
+        <a class="nav-link active portfolio-button" href="#">Portfolio<span class="sr-only">(current)</span></a>
           
-          <a class="nav-link active portfolio-button" href="#">Portfolio<span class="sr-only">(current)</span></a>
-          
-          <a class="nav-link" href="contact.html">Contact</a>
+        <a class="nav-link" href="contact.html">Contact</a>
         
         </div>
 
@@ -68,24 +76,30 @@
   
   </nav>
   
+  <!-- Main container holding the Portfolio section -->
   <div class="container mt-4">
     
     <div class="row">
-         
+      
+      <!-- Container holding the rows and columns within the mainn container-->
       <div class="col-md-9 bg-white about-me">
         
+        <!-- Title of the main container -->
         <h2 class="my-heading"><strong>Portfolio</strong></h2>
         
         <hr>
         
         <div class="container">
           
+          <!-- Projects 1 and 2 -->
           <div class="row">
             
+            <!-- Card container with a relative position so that it is responsive and always centered -->
             <div class="d-flex col-md-6 card-container justify-content-center">
               
               <img src="http://placehold.it/200x200" alt="placeholder">
               
+              <!-- image-text has a fixed position so it correctly moves with the rest of the container -->
               <div class="image-text"><h4>Project 1</h4></div>
             
             </div>
@@ -94,18 +108,21 @@
               
               <img src="http://placehold.it/200x200" alt="placeholder">
               
+              <!-- image-text has a fixed position so it correctly moves with the rest of the container -->
               <div class="image-text"><h4>Project 2</h4></div>
             
             </div>
           
           </div>
 
+          <!-- Projects 3 and 4 -->
           <div class="row">
             
             <div class="d-flex col-md-6 card-container justify-content-center">
               
               <img src="http://placehold.it/200x200" alt="placeholder">
               
+              <!-- image-text has a fixed position so it correctly moves with the rest of the container -->
               <div class="image-text"><h4>Project 3</h4></div>
             
             </div>
@@ -114,18 +131,21 @@
               
               <img src="http://placehold.it/200x200" alt="placeholder">
               
+              <!-- image-text has a fixed position so it correctly moves with the rest of the container -->
               <div class="image-text"><h4>Project 4</h4></div>
             
             </div>
           
           </div>
 
+          <!-- Projects 5 and 6 -->
           <div class="row">
             
             <div class="d-flex col-md-6 card-container justify-content-center">
               
               <img src="http://placehold.it/200x200" alt="placeholder">
               
+              <!-- image-text has a fixed position so it correctly moves with the rest of the container -->
               <div class="image-text"><h4>Project 5</h4></div>
             
             </div>
@@ -134,6 +154,7 @@
               
               <img src="http://placehold.it/200x200" alt="placeholder">
               
+              <!-- image-text has a fixed position so it correctly moves with the rest of the container -->
               <div class="image-text"><h4>Project 6</h4></div>
             
             </div>
@@ -148,12 +169,14 @@
 
   </div> 
   
+  <!-- Footer which is fixed to the bottom of the viewport -->
   <footer>
         
     <p>&copy; Copyright</p>
   
   </footer>
   
+  <!-- JavaScript necessary for Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

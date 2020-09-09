@@ -3,7 +3,7 @@ body {
   background-image: url(../images/geometric-leaves.png)
 }
 
-/* A fixed footer which stays at the bottom of the screen at all times */
+/* A fixed footer which stays at the bottom of the viewport at all times */
 footer {
   position: fixed;
   width: 100%;
@@ -19,7 +19,7 @@ footer {
   font-size: 10px;
 }
 
-/* My name which appears at the top of the screen on sm and xs screens */
+/* My name which appears at the top of the viewport on sm and xs viewports */
 .header {
   background-color: rgb(41, 174, 179);
   color: white;
@@ -29,7 +29,7 @@ footer {
   text-align: center;
 }
 
-/* Navbar at the top of the screen, not fixed to the top of the screen */
+/* Navbar at the top of the viewport, not fixed to the top of the viewport */
 .navbar {
   border-bottom-style: solid;
   border-bottom-width: 1px;
