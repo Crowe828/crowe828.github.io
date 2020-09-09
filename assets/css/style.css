@@ -1,7 +1,9 @@
+/* Background image is a bunch of leaves */
 body {
   background-image: url(../images/geometric-leaves.png)
 }
 
+/* A fixed footer which stays at the bottom of the screen at all times */
 footer {
   position: fixed;
   width: 100%;
@@ -17,6 +19,24 @@ footer {
   font-size: 10px;
 }
 
+/* My name which appears at the top of the screen on sm and xs screens */
+.header {
+  background-color: rgb(41, 174, 179);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Navbar at the top of the screen, not fixed to the top of the screen */
+.navbar {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgray;
+}
+
+/* My name which appears within the navbar */
 .my-name {
   background-color: rgb(41, 174, 179);
   color: white;
@@ -27,35 +47,7 @@ footer {
   margin: -9px;
 }
 
-.navbar {
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: lightgray;
-}
-
-.my-heading {
-  font-family: 'Times New Roman', Times, serif;
-  color: rgb(41, 174, 179);
-  margin: 10px;
-}
-
-.about-me {
-  border-style: solid;
-  border-width: 1px;
-  border-color: lightgray;
-  margin-bottom: 100px;
-}
-
-.my-face {
-  float: left;
-  margin-right: 10px;
-}
-
-.about-me-text {
-  font-size: 14px;
-  color: grey;
-}
-
+/* Portfolio button in the navbar which has borders on each side, spacing the three menu items apart */
 .portfolio-button {
   border-left-style: solid;
   border-left-width: 1px;
@@ -66,15 +58,34 @@ footer {
 }
 
 
-.header {
-  background-color: rgb(41, 174, 179);
-  color: white;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 72px;
-  font-weight: bold;
-  text-align: center;
+/* The main container on each page */
+.about-me {
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  margin-bottom: 200px;
 }
 
+/* The heading of the main container on each page */
+.my-heading {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(41, 174, 179);
+  margin: 10px;
+}
+
+/* Picture of me on the Index page */
+.my-face {
+  float: left;
+  margin-right: 10px;
+}
+
+/* Main text within the About Me section on the Index */
+.about-me-text {
+  font-size: 14px;
+  color: grey;
+}
+
+/* The container within the main container on the Portfolio page, which houses all of my projects */
 .card-container {
   position: relative;
   padding: 0;
@@ -82,6 +93,7 @@ footer {
   
 }
 
+/* The text on top of each image in the portfolio */
 .image-text {
   text-align: center;
   background-color: rgb(41, 174, 179);
@@ -95,13 +107,10 @@ footer {
   
 }
 
+/* The submit button on the Contact page */
 .submit-button {
   text-align: center;
   background-color: rgb(41, 174, 179);
   color: white;
   margin-bottom: 20px;
 }
-
-/* @media screen and (max-width: 640px) {
-
-} */
