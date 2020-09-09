@@ -19,14 +19,26 @@ footer {
   font-size: 10px;
 }
 
-/* My name which appears at the top of the viewport on sm and xs viewports */
-.header {
+/* These classes all use the same font */
+.header, .my-name, .my-heading, .image-text, .image-text-2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* These classes all use the same color, background color, and alignment */
+.header, .my-name, .image-text, .image-text-2, .submit-button {
   background-color: rgb(41, 174, 179);
   color: white;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 72px;
-  font-weight: bold;
   text-align: center;
+}
+
+/* These classes all have bolded text */
+.header, .my-name, .my-heading {
+  font-weight: bold;
+}
+
+/* My name which appears at the top of the viewport on sm and xs viewports */
+.header {
+  font-size: 72px;
 }
 
 /* Navbar at the top of the viewport, not fixed to the top of the viewport */
@@ -38,11 +50,7 @@ footer {
 
 /* My name which appears within the navbar */
 .my-name {
-  background-color: rgb(41, 174, 179);
-  color: white;
-  font-family: 'Times New Roman', Times, serif;
   font-size: 28px;
-  font-weight: bold;
   padding: 9px;
   margin: -9px;
 }
@@ -68,21 +76,18 @@ footer {
 
 /* The heading of the main container on each page */
 .my-heading {
-  font-family: 'Times New Roman', Times, serif;
   color: rgb(41, 174, 179);
   margin: 10px;
 }
 
 /* Picture of me on the Index page for medium or larger viewports */
-.my-face {
+.my-face, .my-face-2 {
   float: left;
   margin-right: 10px;
 }
 
 /* Picture of me on the Index page for small or extra small viewports*/
 .my-face-2 {
-  float: left;
-  margin-right: 10px;
   margin-bottom: 10px;
 }
 
@@ -96,15 +101,15 @@ footer {
 .card-container {
   position: relative;
   padding: 0;
+}
+
+/* The submit button on the contact page as well as the card container from the portfolio page both use the same bottom margin */
+.card-container, .submit-button {
   margin-bottom: 20px;
 }
 
 /* The text on top of each image in the portfolio */
 .image-text, .image-text-2 {
-  text-align: center;
-  background-color: rgb(41, 174, 179);
-  color: white;
-  font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   padding: 5px;
   width: 200px;
@@ -115,14 +120,6 @@ footer {
 /* Width of the image-text must change due to the size of the images increasing */
 .image-text-2 {
   width: 400px;
-}
-
-/* The submit button on the Contact page */
-.submit-button {
-  text-align: center;
-  background-color: rgb(41, 174, 179);
-  color: white;
-  margin-bottom: 20px;
 }
 
 /* Styling links to social media */
