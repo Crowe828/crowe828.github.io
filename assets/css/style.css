@@ -19,23 +19,6 @@ footer {
   font-size: 10px;
 }
 
-/* These classes all use the same font */
-.header, .my-name, .my-heading, .image-text, .image-text-2 {
-  font-family: 'Times New Roman', Times, serif;
-}
-
-/* These classes all use the same color, background color, and alignment */
-.header, .my-name, .image-text, .image-text-2, .submit-button {
-  background-color: rgb(41, 174, 179);
-  color: white;
-  text-align: center;
-}
-
-/* These classes all have bolded text */
-.header, .my-name, .my-heading {
-  font-weight: bold;
-}
-
 /* My name which appears at the top of the viewport on sm and xs viewports */
 .header {
   font-size: 72px;
@@ -120,6 +103,23 @@ footer {
 /* Width of the image-text must change due to the size of the images increasing */
 .image-text-2 {
   width: 400px;
+}
+
+/* These classes all use the same font */
+.header, .my-name, .my-heading, .image-text, .image-text-2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* These classes all use the same color, background color, and alignment */
+.header, .my-name, .image-text, .image-text-2, .submit-button {
+  background-color: rgb(41, 174, 179);
+  color: white;
+  text-align: center;
+}
+
+/* These classes all have bolded text */
+.header, .my-name, .my-heading {
+  font-weight: bold;
 }
 
 /* Styling links to social media */
