@@ -1,6 +1,6 @@
 /* Background image is a bunch of leaves */
 body {
-  background-image: url(../images/geometric-leaves.png)
+  background-image: url(../images/geometric-leaves.png);
 }
 
 /* A fixed footer which stays at the bottom of the viewport at all times */
@@ -42,12 +42,11 @@ footer {
 .portfolio-button {
   border-left-style: solid;
   border-left-width: 1px;
-  border-left-color: lightgray; 
+  border-left-color: lightgray;
   border-right-style: solid;
   border-right-width: 1px;
   border-right-color: lightgray;
 }
-
 
 /* The main container on each page */
 .about-me {
@@ -64,7 +63,8 @@ footer {
 }
 
 /* Picture of me on the Index page for medium or larger viewports */
-.my-face, .my-face-2 {
+.my-face,
+.my-face-2 {
   float: left;
   margin-right: 10px;
 }
@@ -87,12 +87,14 @@ footer {
 }
 
 /* The submit button on the contact page as well as the card container from the portfolio page both use the same bottom margin */
-.card-container, .submit-button {
+.card-container,
+.submit-button {
   margin-bottom: 20px;
 }
 
 /* The text on top of each image in the portfolio */
-.image-text, .image-text-2 {
+.image-text,
+.image-text-2 {
   font-size: 20px;
   padding: 5px;
   width: 200px;
@@ -106,19 +108,29 @@ footer {
 }
 
 /* These classes all use the same font */
-.header, .my-name, .my-heading, .image-text, .image-text-2 {
-  font-family: 'Times New Roman', Times, serif;
+.header,
+.my-name,
+.my-heading,
+.image-text,
+.image-text-2 {
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* These classes all use the same color, background color, and alignment */
-.header, .my-name, .image-text, .image-text-2, .submit-button {
+.header,
+.my-name,
+.image-text,
+.image-text-2,
+.submit-button {
   background-color: rgb(41, 174, 179);
   color: white;
   text-align: center;
 }
 
 /* These classes all have bolded text */
-.header, .my-name, .my-heading {
+.header,
+.my-name,
+.my-heading {
   font-weight: bold;
 }
 

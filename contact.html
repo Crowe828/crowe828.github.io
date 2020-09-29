@@ -1,178 +1,191 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-  
-  <meta charset="UTF-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-  <!-- Reset.css -->
-  <link rel="stylesheet" href="assets/css/reset.css">
-    
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    
-  <!-- stylesheet.css -->
-  <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Font Awesome  -->
-  <script src="https://kit.fontawesome.com/79351323a4.js" crossorigin="anonymous"></script>
-    
-  <!-- Name of page -->
-  <title>Christian Rowe - Contact</title>
+    <!-- Reset.css -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
 
-</head>
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
 
-<body>
-  
-  <!-- Header only appears on small and extra small viewports -->
-  <div class="d-md-none header">Christian Rowe</div>
+    <!-- stylesheet.css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-  <!-- Navbar which appears on medium through extra large viewports -->
-  <nav class="navbar navbar-expand-sm navbar-light bg-light d-none d-xs-none d-sm-none d-md-block">
-    
-    <div class="container">
+    <!-- Font Awesome  -->
+    <script
+      src="https://kit.fontawesome.com/79351323a4.js"
+      crossorigin="anonymous"
+    ></script>
 
-      <!-- My name which appears in the Navbar -->
-      <div class="navbar my-name">Christian Rowe</div>
+    <!-- Name of page -->
+    <title>Christian Rowe - Contact</title>
+  </head>
 
-      <div class="justify-content-end">  
+  <body>
+    <!-- Header only appears on small and extra small viewports -->
+    <div class="d-md-none header">Christian Rowe</div>
 
-        <!-- About, Portfolio, and Contact buttons -->
-        <div class="navbar-nav navbar-menu">
-          
-          <a class="nav-link" href="index.html">About</a>
-          
-          <a class="nav-link portfolio-button" href="portfolio.html">Portfolio</a>
-          
-          <!-- Contact button is currently active  -->
-          <a class="nav-link active" href="#">Contact<span class="sr-only">(current)</span></a>
-        
-        </div> 
+    <!-- Navbar which appears on medium through extra large viewports -->
+    <nav
+      class="navbar navbar-expand-sm navbar-light bg-light d-none d-xs-none d-sm-none d-md-block"
+    >
+      <div class="container">
+        <!-- My name which appears in the Navbar -->
+        <div class="navbar my-name">Christian Rowe</div>
 
+        <div class="justify-content-end">
+          <!-- About, Portfolio, and Contact buttons -->
+          <div class="navbar-nav navbar-menu">
+            <a class="nav-link" href="index.html">About</a>
+
+            <a class="nav-link portfolio-button" href="portfolio.html"
+              >Portfolio</a
+            >
+
+            <!-- Contact button is currently active  -->
+            <a class="nav-link active" href="#"
+              >Contact<span class="sr-only">(current)</span></a
+            >
+          </div>
+        </div>
       </div>
+    </nav>
 
-    </div>
-  
-  </nav>
+    <!-- Navbar which appears on small and extra small viewports -->
+    <nav class="navbar navbar-expand navbar-light bg-light d-md-none">
+      <div class="container justify-content-center">
+        <!-- About, Portfolio, and Contact buttons on the secdond Navbar -->
+        <div class="navbar-nav navbar-menu">
+          <a class="nav-link" href="index.html">About</a>
 
-  <!-- Navbar which appears on small and extra small viewports -->
-  <nav class="navbar navbar-expand navbar-light bg-light d-md-none">
-    
-    <div class="container justify-content-center">
+          <a class="nav-link portfolio-button" href="portfolio.html"
+            >Portfolio</a
+          >
 
-       <!-- About, Portfolio, and Contact buttons on the secdond Navbar -->
-      <div class="navbar-nav navbar-menu">
-          
-        <a class="nav-link" href="index.html">About</a>
-          
-        <a class="nav-link portfolio-button" href="portfolio.html">Portfolio</a>
-        
-        <!-- Contact button is currently active -->
-        <a class="nav-link active" href="#">Contact<span class="sr-only">(current)</span></a>
-        
+          <!-- Contact button is currently active -->
+          <a class="nav-link active" href="#"
+            >Contact<span class="sr-only">(current)</span></a
+          >
         </div>
+      </div>
+    </nav>
 
-    </div>
-  
-  </nav>
-  
-  <!-- Main container holding the Contact section -->
-  <div class="container mt-4">
-    
-    <div class="row">
-         
-      <!-- Container holding the rows and columns within the main container-->
-      <div class="col-md-9 bg-white about-me">
+    <!-- Main container holding the Contact section -->
+    <div class="container mt-4">
+      <div class="row">
+        <!-- Container holding the rows and columns within the main container-->
+        <div class="col-md-9 bg-white about-me">
+          <!-- Title of the main container -->
+          <h2 class="my-heading">Contact</h2>
 
-        <!-- Title of the main container -->
-        <h2 class="my-heading">Contact</h2>
-        
-        <hr>
+          <hr />
 
-        <!-- Form to enter your contact info in -->
-        <form>
+          <!-- Form to enter your contact info in -->
+          <form>
+            <!-- Enter your name -->
+            <div class="form-group">
+              <label for="formGroupExampleInput">Name</label>
 
-          <!-- Enter your name -->
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput"
+                placeholder="Hint: It's probably not ''Christian Rowe''"
+              />
+            </div>
+
+            <!-- Enter your email -->
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Email</label>
+
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput2"
+                placeholder="email@example.com"
+              />
+            </div>
+          </form>
+
+          <!-- Text area with your message -->
           <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
 
-            
-            <label for="formGroupExampleInput">Name</label>
-
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Hint: It's probably not ''Christian Rowe''">
-
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="6"
+            ></textarea>
           </div>
 
-          <!-- Enter your email -->
-          <div class="form-group">
-
-            <label for="formGroupExampleInput2">Email</label>
-
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="email@example.com">
-
+          <div class="row">
+            <div class="col-md-12">
+              <!-- Submit button -->
+              <button type="button" class="btn submit-button">Submit</button>
+            </div>
           </div>
-
-        </form>
-
-        <!-- Text area with your message -->
-        <div class="form-group">
-
-          <label for="exampleFormControlTextarea1">Message</label>
-
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-
         </div>
-
-        <div class="row">
-
-          <div class="col-md-12">
-
-            <!-- Submit button -->
-            <button type="button" class="btn submit-button">Submit</button>
-
-          </div>
-
-        </div>
-        
-
-      </div> 
-
+      </div>
     </div>
 
-  </div> 
-  
-  <!-- Footer which is fixed to the bottom of the viewport -->
-  <footer>
-    
-    <!-- Email -->
-    <i class="fas fa-envelope-open-text"></i> <a href="mailto:crowe828@gmail.com">Email</a>
+    <!-- Footer which is fixed to the bottom of the viewport -->
+    <footer>
+      <!-- Email -->
+      <i class="fas fa-envelope-open-text"></i>
+      <a href="mailto:crowe828@gmail.com">Email</a>
 
-    <!-- GitHub -->
-    <i class="fab fa-github-square"></i> <a href="https://github.com/Crowe828" target="_blank">GitHub</a>
+      <!-- GitHub -->
+      <i class="fab fa-github-square"></i>
+      <a href="https://github.com/Crowe828" target="_blank">GitHub</a>
 
-    <!-- LinkedIn -->
-    <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/christiantrowe/" target="_blank">LinkedIn</a>
+      <!-- LinkedIn -->
+      <i class="fab fa-linkedin"></i>
+      <a href="https://www.linkedin.com/in/christiantrowe/" target="_blank"
+        >LinkedIn</a
+      >
 
-    <!-- Facebook -->
-    <i class="fab fa-facebook-square"></i> <a href="https://www.facebook.com/christiantaylorrowe/" target="_blank">Facebook</a>
+      <!-- Facebook -->
+      <i class="fab fa-facebook-square"></i>
+      <a href="https://www.facebook.com/christiantaylorrowe/" target="_blank"
+        >Facebook</a
+      >
 
-    <!-- Instagram -->
-    <i class="fab fa-instagram-square"></i> <a href="https://www.instagram.com/thatpapi/" target="_blank">Instagram</a>
+      <!-- Instagram -->
+      <i class="fab fa-instagram-square"></i>
+      <a href="https://www.instagram.com/thatpapi/" target="_blank"
+        >Instagram</a
+      >
 
-    <!-- Copyright -->
-    <p>Christian Rowe &copy; Copyright 2020. All rights reserved.</p>
-  
-  </footer>
-  
-  <!-- JavaScript necessary for Bootstrap -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      <!-- Copyright -->
+      <p>Christian Rowe &copy; Copyright 2020. All rights reserved.</p>
+    </footer>
 
-</body>
+    <!-- JavaScript necessary for Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
