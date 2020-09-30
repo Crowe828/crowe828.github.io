@@ -39,8 +39,10 @@
   <body>
     <!-- Header only appears on small and extra small viewports -->
     <div class="d-md-none header">
-      (Christian) <br />
-      Rowe.
+      <a href="index.html" class="splash-return"
+        >(Christian) <br />
+        Rowe.</a
+      >
     </div>
 
     <!-- Navbar which appears on medium through extra large viewports -->
@@ -49,14 +51,45 @@
     >
       <div class="container">
         <!-- My name which appears in the Navbar -->
-        <div class="navbar my-name">(Christian) Rowe.</div>
+        <div class="navbar my-name">
+          <a href="index.html" class="splash-return">(Christian) Rowe.</a>
+        </div>
 
         <div class="justify-content-end">
           <!-- Portfolio, About, and Contact buttons -->
           <div class="navbar-nav navbar-menu">
-            <a class="nav-link portfolio-button" href="portfolio.html"
-              >Portfolio</a
-            >
+            <div class="btn-group portfolio-button">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <button
+                type="button"
+                class="btn dropdown-toggle dropdown-toggle-split"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu">
+                <a
+                  class="dropdown-item"
+                  href="https://crowe828.github.io/inkmap/"
+                  target="_blank"
+                  >InkMap</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="https://crowe828.github.io/weather-dashboard/"
+                  target="_blank"
+                  >Weather Dashboard</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="https://crowe828.github.io/work-day-scheduler/"
+                  target="_blank"
+                  >Work Day Scheduler</a
+                >
+              </div>
+            </div>
 
             <a class="nav-link" href="about.html">About</a>
 
@@ -74,9 +107,38 @@
       <div class="container justify-content-center">
         <!-- Portfolio, About, and Contact buttons on the secdond Navbar -->
         <div class="navbar-nav navbar-menu">
-          <a class="nav-link portfolio-button" href="portfolio.html"
-            >Portfolio</a
-          >
+          <div class="btn-group portfolio-button">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <button
+              type="button"
+              class="btn dropdown-toggle dropdown-toggle-split"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+              <a
+                class="dropdown-item"
+                href="https://crowe828.github.io/inkmap/"
+                target="_blank"
+                >InkMap</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://crowe828.github.io/weather-dashboard/"
+                target="_blank"
+                >Weather Dashboard</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://crowe828.github.io/work-day-scheduler/"
+                target="_blank"
+                >Work Day Scheduler</a
+              >
+            </div>
+          </div>
           <a class="nav-link" href="about.html">About</a>
 
           <!-- Contact button is currently active -->

@@ -34,9 +34,19 @@ footer {
   border-bottom-color: rgb(199, 199, 204);
 }
 
-.active {
+.active,
+.splash-btn {
   background-color: rgb(209, 209, 214);
   border-radius: 10px 10px 10px 10px;
+}
+
+.active:hover,
+.splash-btn:hover {
+  background-color: rgb(199, 199, 204);
+}
+
+.splash-return:hover {
+  color: rgb(72, 72, 74);
 }
 
 /* My name which appears within the navbar */
@@ -130,7 +140,6 @@ footer {
 .splash-page {
   height: 200px;
   width: 400px;
-  /* background: black; */
   position: fixed;
   text-align: center;
   top: 50%;
