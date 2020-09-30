@@ -10,10 +10,10 @@ footer {
   width: 100%;
   bottom: 0px;
   text-align: center;
-  color: rgb(58, 58, 60);
+  color: rgb(99, 99, 102);
   background-color: rgb(250, 250, 250);
-  padding: 25px;
-  height: 70px;
+  padding: 15px;
+  height: 60px;
   border-top-style: solid;
   border-top-width: 1px;
   border-top-color: rgb(199, 199, 204);
@@ -35,7 +35,6 @@ footer {
 }
 
 .active {
-  color: rgb(142, 142, 147);
   background-color: rgb(209, 209, 214);
   border-radius: 10px 10px 10px 10px;
 }
@@ -128,28 +127,38 @@ footer {
   font-weight: bold;
 }
 
+.splash-page {
+  height: 200px;
+  width: 400px;
+  /* background: black; */
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+
 /* Styling links to social media */
 /* Links are normally light grey */
 a:link {
-  color: rgb(58, 58, 60);
+  color: rgb(99, 99, 102);
 }
 
 /* Once visited they will remain grey */
 a:visited {
-  color: rgb(58, 58, 60);
+  color: rgb(99, 99, 102);
   text-decoration: none;
 }
 
 /* When hovering over the links, they will be midnight blue */
 a:hover {
   color: rgb(0, 122, 255);
-
   text-decoration: none;
 }
 
 /* clicking on the link makes it the following shade of blue/green */
 a:active {
   color: rgb(142, 142, 147);
-
   text-decoration: none;
 }
