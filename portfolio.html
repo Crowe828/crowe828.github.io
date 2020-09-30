@@ -17,8 +17,11 @@
       crossorigin="anonymous"
     />
 
-    <!-- stylesheet.css -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Font Awesome  -->
     <script
@@ -26,13 +29,19 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- stylesheet.css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
     <!-- Name of page -->
-    <title>Christian Rowe | Portfolio</title>
+    <title>Christian Rowe. Portfolio.</title>
   </head>
 
   <body>
     <!-- Header only appears on small and extra small viewports -->
-    <div class="d-md-none header">Christian Rowe</div>
+    <div class="d-md-none header">
+      (Christian) <br />
+      Rowe.
+    </div>
 
     <!-- Navbar which appears on medium through extra large viewports -->
     <nav
@@ -40,17 +49,16 @@
     >
       <div class="container">
         <!-- My name which appears in the Navbar -->
-        <div class="navbar my-name">Christian Rowe</div>
+        <div class="navbar my-name">(Christian) Rowe.</div>
 
         <div class="justify-content-end">
-          <!-- About, Portfolio, and Contact buttons -->
+          <!-- Portfolio, About, and Contact buttons -->
           <div class="navbar-nav navbar-menu">
-            <a class="nav-link" href="index.html">About</a>
-
             <!-- Portfolio button is currently active  -->
             <a class="nav-link active portfolio-button" href="#"
               >Portfolio<span class="sr-only">(current)</span></a
             >
+            <a class="nav-link" href="index.html">About</a>
 
             <a class="nav-link" href="contact.html">Contact</a>
           </div>
@@ -61,14 +69,13 @@
     <!-- Navbar which appears on small and extra small viewports -->
     <nav class="navbar navbar-expand navbar-light bg-light d-md-none">
       <div class="container justify-content-center">
-        <!-- About, Portfolio, and Contact buttons on the secdond Navbar -->
+        <!-- Portfolio, About, and Contact buttons on the secdond Navbar -->
         <div class="navbar-nav navbar-menu">
-          <a class="nav-link" href="index.html">About</a>
-
           <!-- Portfolio button is currently active -->
           <a class="nav-link active portfolio-button" href="#"
             >Portfolio<span class="sr-only">(current)</span></a
           >
+          <a class="nav-link" href="index.html">About</a>
 
           <a class="nav-link" href="contact.html">Contact</a>
         </div>
@@ -79,12 +86,18 @@
     <div class="container mt-4">
       <div class="row">
         <!-- Container holding the rows and columns within the main container-->
-        <div class="col bg-white about-me">
+        <div class="col bg-white about-me rounded">
           <!-- Title of the main container -->
-          <h2 class="my-heading">Portfolio</h2>
+          <h2 class="my-heading">Things I Make: A Portfolio.</h2>
           <div class="container">
             <!-- InkMap -->
             <div class="row">
+              <a
+                href="https://crowe828.github.io/inkmap/"
+                target="_blank"
+                class="image-text"
+                >InkMap</a
+              >
               <!-- Card container with a relative position so that it is responsive and always centered -->
               <div class="d-flex col-md card-container justify-content-center">
                 <a href="https://crowe828.github.io/inkmap/" target="_blank">
@@ -93,13 +106,18 @@
                     class="img-thumbnail img-fluid"
                     alt="inkmap"
                 /></a>
-                <!-- image-text has a fixed position so it correctly moves with the rest of the container -->
-                <div class="image-text"><h4>InkMap</h4></div>
               </div>
             </div>
 
             <!-- Weather Dashboard -->
             <div class="row">
+              <a
+                href="https://crowe828.github.io/weather-dashboard/"
+                target="_blank"
+                class="image-text"
+                >Weather Dashboard</a
+              >
+
               <!-- Card container with a relative position so that it is responsive and always centered -->
               <div class="d-flex col-md card-container justify-content-center">
                 <a
@@ -111,27 +129,30 @@
                     class="img-thumbnail img-fluid"
                     alt="weather-dashboard"
                 /></a>
-                <!-- image-text has a fixed position so it correctly moves with the rest of the container -->
-                <div class="image-text"><h4>Weather Dashboard</h4></div>
               </div>
             </div>
-          </div>
 
-          <!-- Work Day Scheduler -->
-          <div class="row">
-            <!-- Card container with a relative position so that it is responsive and always centered -->
-            <div class="d-flex col-md card-container justify-content-center">
+            <!-- Work Day Scheduler -->
+            <div class="row">
               <a
                 href="https://crowe828.github.io/work-day-scheduler/"
                 target="_blank"
-              >
-                <img
-                  src="./assets/images/portfolio/work-day-scheduler.png"
-                  class="img-thumbnail img-fluid"
-                  alt="work-day-scheduler"
-              /></a>
-              <!-- image-text has a fixed position so it correctly moves with the rest of the container -->
-              <div class="image-text"><h4>Work Day Scheduler</h4></div>
+                class="image-text"
+                >Work Day
+              </a>
+
+              <!-- Card container with a relative position so that it is responsive and always centered -->
+              <div class="d-flex col-md card-container justify-content-center">
+                <a
+                  href="https://crowe828.github.io/work-day-scheduler/"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/portfolio/work-day-scheduler.png"
+                    class="img-thumbnail img-fluid"
+                    alt="work-day-scheduler"
+                /></a>
+              </div>
             </div>
           </div>
         </div>

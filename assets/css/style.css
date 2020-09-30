@@ -1,6 +1,7 @@
 /* Background image is a bunch of leaves */
 body {
-  background-image: url(../images/geometric-leaves.png);
+  background-color: rgb(242, 242, 247);
+  font-family: "Rubik", sans-serif;
 }
 
 /* A fixed footer which stays at the bottom of the viewport at all times */
@@ -9,26 +10,34 @@ footer {
   width: 100%;
   bottom: 0px;
   text-align: center;
-  color: lightgray;
-  background-color: gray;
+  color: rgb(58, 58, 60);
+  background-color: rgb(250, 250, 250);
   padding: 25px;
   height: 70px;
   border-top-style: solid;
-  border-top-width: 5px;
-  border-top-color: rgb(41, 174, 179);
+  border-top-width: 1px;
+  border-top-color: rgb(199, 199, 204);
   font-size: 10px;
 }
 
 /* My name which appears at the top of the viewport on sm and xs viewports */
 .header {
   font-size: 72px;
+  background-color: rgb(250, 250, 250);
 }
 
 /* Navbar at the top of the viewport, not fixed to the top of the viewport */
 .navbar {
+  background-color: rgb(250, 250, 250);
   border-bottom-style: solid;
   border-bottom-width: 1px;
-  border-bottom-color: lightgray;
+  border-bottom-color: rgb(199, 199, 204);
+}
+
+.active {
+  color: rgb(142, 142, 147);
+  background-color: rgb(209, 209, 214);
+  border-radius: 10px 10px 10px 10px;
 }
 
 /* My name which appears within the navbar */
@@ -38,27 +47,18 @@ footer {
   margin: -9px;
 }
 
-/* Portfolio button in the navbar which has borders on each side, spacing the three menu items apart */
-.portfolio-button {
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-left-color: lightgray;
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-right-color: lightgray;
-}
-
 /* The main container on each page */
 .about-me {
+  background-color: rgb(250, 250, 250);
   border-style: solid;
   border-width: 1px;
-  border-color: lightgray;
+  border-color: rgb(199, 199, 204);
   margin-bottom: 100px;
 }
 
 /* The heading of the main container on each page */
 .my-heading {
-  color: rgb(41, 174, 179);
+  color: rgb(58, 58, 60);
   margin: 10px;
 }
 
@@ -77,13 +77,20 @@ footer {
 /* Main text within the About Me section on the Index */
 .about-me-text {
   font-size: 14px;
-  color: grey;
+  color: rgb(99, 99, 102);
 }
 
 /* The container within the main container on the Portfolio page, which houses all of my projects */
 .card-container {
   position: relative;
   padding: 0;
+}
+
+.submit-button {
+  color: white;
+  background-color: rgb(0, 122, 255);
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
 }
 
 /* The submit button on the contact page as well as the card container from the portfolio page both use the same bottom margin */
@@ -93,12 +100,10 @@ footer {
 }
 
 /* The text on top of each image in the portfolio */
-.image-text,
-.image-text-2 {
+.image-text {
   font-size: 20px;
   padding: 5px;
-  width: 500px;
-  position: absolute;
+  width: 100%;
   bottom: 20px;
 }
 
@@ -107,23 +112,12 @@ footer {
   width: 400px;
 }
 
-/* These classes all use the same font */
-.header,
-.my-name,
-.my-heading,
-.image-text,
-.image-text-2 {
-  font-family: "Times New Roman", Times, serif;
-}
-
 /* These classes all use the same color, background color, and alignment */
 .header,
 .my-name,
 .image-text,
-.image-text-2,
-.submit-button {
-  background-color: rgb(41, 174, 179);
-  color: white;
+.image-text-2 {
+  color: rgb(44, 44, 46);
   text-align: center;
 }
 
@@ -137,20 +131,25 @@ footer {
 /* Styling links to social media */
 /* Links are normally light grey */
 a:link {
-  color: lightgrey;
+  color: rgb(58, 58, 60);
 }
 
 /* Once visited they will remain grey */
 a:visited {
-  color: lightgrey;
+  color: rgb(58, 58, 60);
+  text-decoration: none;
 }
 
 /* When hovering over the links, they will be midnight blue */
 a:hover {
-  color: midnightblue;
+  color: rgb(0, 122, 255);
+
+  text-decoration: none;
 }
 
 /* clicking on the link makes it the following shade of blue/green */
 a:active {
-  color: rgb(41, 144, 148);
+  color: rgb(142, 142, 147);
+
+  text-decoration: none;
 }

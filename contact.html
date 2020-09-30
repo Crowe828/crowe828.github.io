@@ -17,8 +17,11 @@
       crossorigin="anonymous"
     />
 
-    <!-- stylesheet.css -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Font Awesome  -->
     <script
@@ -26,13 +29,19 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- stylesheet.css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
     <!-- Name of page -->
-    <title>Christian Rowe | Contact</title>
+    <title>Christian Rowe. Contact.</title>
   </head>
 
   <body>
     <!-- Header only appears on small and extra small viewports -->
-    <div class="d-md-none header">Christian Rowe</div>
+    <div class="d-md-none header">
+      (Christian) <br />
+      Rowe.
+    </div>
 
     <!-- Navbar which appears on medium through extra large viewports -->
     <nav
@@ -40,16 +49,16 @@
     >
       <div class="container">
         <!-- My name which appears in the Navbar -->
-        <div class="navbar my-name">Christian Rowe</div>
+        <div class="navbar my-name">(Christian) Rowe.</div>
 
         <div class="justify-content-end">
-          <!-- About, Portfolio, and Contact buttons -->
+          <!-- Portfolio, About, and Contact buttons -->
           <div class="navbar-nav navbar-menu">
-            <a class="nav-link" href="index.html">About</a>
-
             <a class="nav-link portfolio-button" href="portfolio.html"
               >Portfolio</a
             >
+
+            <a class="nav-link" href="index.html">About</a>
 
             <!-- Contact button is currently active  -->
             <a class="nav-link active" href="#"
@@ -63,13 +72,12 @@
     <!-- Navbar which appears on small and extra small viewports -->
     <nav class="navbar navbar-expand navbar-light bg-light d-md-none">
       <div class="container justify-content-center">
-        <!-- About, Portfolio, and Contact buttons on the secdond Navbar -->
+        <!-- Portfolio, About, and Contact buttons on the secdond Navbar -->
         <div class="navbar-nav navbar-menu">
-          <a class="nav-link" href="index.html">About</a>
-
           <a class="nav-link portfolio-button" href="portfolio.html"
             >Portfolio</a
           >
+          <a class="nav-link" href="index.html">About</a>
 
           <!-- Contact button is currently active -->
           <a class="nav-link active" href="#"
@@ -83,9 +91,9 @@
     <div class="container mt-4">
       <div class="row">
         <!-- Container holding the rows and columns within the main container-->
-        <div class="col-md-9 bg-white about-me">
+        <div class="col-md-9 bg-white about-me rounded">
           <!-- Title of the main container -->
-          <h2 class="my-heading">Contact</h2>
+          <h2 class="my-heading">Let's Talk.</h2>
 
           <hr />
 
@@ -114,25 +122,25 @@
                 placeholder="email@example.com"
               />
             </div>
-          </form>
 
-          <!-- Text area with your message -->
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
+            <!-- Text area with your message -->
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
 
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="6"
-            ></textarea>
-          </div>
-
-          <div class="row">
-            <div class="col-md-12">
-              <!-- Submit button -->
-              <button type="button" class="btn submit-button">Submit</button>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="6"
+              ></textarea>
             </div>
-          </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <!-- Submit button -->
+                <button type="submit" class="btn submit-button">Submit</button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>
