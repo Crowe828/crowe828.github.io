@@ -1,4 +1,4 @@
-/* Background image is a bunch of leaves */
+/* Background is grey for every page but the front */
 body {
   background-color: rgb(242, 242, 247);
   font-family: "Rubik", sans-serif;
@@ -36,13 +36,38 @@ footer {
 
 .active,
 .splash-btn {
-  background-color: rgb(209, 209, 214);
+  background-color: rgb(229, 229, 234);
   border-radius: 10px 10px 10px 10px;
 }
 
-.active:hover,
 .splash-btn:hover {
+  background-color: rgb(209, 209, 214);
+}
+
+.splash-btn:active {
   background-color: rgb(199, 199, 204);
+}
+
+.nav-btn {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.nav-btn:hover,
+.nav-btn:active {
+  border-radius: 10px 10px 10px 10px;
+}
+
+.nav-btn:hover {
+  background-color: rgb(229, 229, 234);
+}
+
+.nav-btn:active {
+  background-color: rgb(209, 209, 214);
+}
+
+.dropdown-toggle-split {
+  color: rgb(174, 174, 178);
 }
 
 .splash-return:hover {
@@ -135,6 +160,10 @@ footer {
 .my-name,
 .my-heading {
   font-weight: bold;
+}
+
+.contact-text {
+  font-size: 18px;
 }
 
 .splash-page {

@@ -58,7 +58,14 @@
         <div class="justify-content-end">
           <!-- Portfolio, About, and Contact buttons -->
           <div class="navbar-nav navbar-menu">
-            <div class="btn-group portfolio-button">
+            <a class="nav-link nav-btn" href="about.html">About</a>
+
+            <!-- Contact button is currently active  -->
+            <a class="nav-link nav-btn active" href="#"
+              >Contact<span class="sr-only">(current)</span></a
+            >
+
+            <div class="btn-group nav-btn">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
               <button
                 type="button"
@@ -90,13 +97,6 @@
                 >
               </div>
             </div>
-
-            <a class="nav-link" href="about.html">About</a>
-
-            <!-- Contact button is currently active  -->
-            <a class="nav-link active" href="#"
-              >Contact<span class="sr-only">(current)</span></a
-            >
           </div>
         </div>
       </div>
@@ -107,7 +107,14 @@
       <div class="container justify-content-center">
         <!-- Portfolio, About, and Contact buttons on the secdond Navbar -->
         <div class="navbar-nav navbar-menu">
-          <div class="btn-group portfolio-button">
+          <a class="nav-link nav-btn" href="about.html">About</a>
+
+          <!-- Contact button is currently active -->
+          <a class="nav-link nav-btn active" href="#"
+            >Contact<span class="sr-only">(current)</span></a
+          >
+
+          <div class="btn-group nav-btn">
             <a class="nav-link" href="portfolio.html">Portfolio</a>
             <button
               type="button"
@@ -139,12 +146,6 @@
               >
             </div>
           </div>
-          <a class="nav-link" href="about.html">About</a>
-
-          <!-- Contact button is currently active -->
-          <a class="nav-link active" href="#"
-            >Contact<span class="sr-only">(current)</span></a
-          >
         </div>
       </div>
     </nav>
@@ -153,56 +154,56 @@
     <div class="container mt-4">
       <div class="row">
         <!-- Container holding the rows and columns within the main container-->
-        <div class="col-md-9 bg-white about-me rounded">
+        <div class="col-md-6 bg-white about-me rounded">
           <!-- Title of the main container -->
           <h2 class="my-heading">Let's Talk.</h2>
-
           <hr />
-
-          <!-- Form to enter your contact info in -->
-          <form>
-            <!-- Enter your name -->
-            <div class="form-group">
-              <label for="formGroupExampleInput">Name</label>
-
-              <input
-                type="text"
-                class="form-control"
-                id="formGroupExampleInput"
-                placeholder="Hint: It's probably not ''Christian Rowe''"
-              />
-            </div>
-
-            <!-- Enter your email -->
-            <div class="form-group">
-              <label for="formGroupExampleInput2">Email</label>
-
-              <input
-                type="text"
-                class="form-control"
-                id="formGroupExampleInput2"
-                placeholder="email@example.com"
-              />
-            </div>
-
-            <!-- Text area with your message -->
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Message</label>
-
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                rows="6"
-              ></textarea>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12">
-                <!-- Submit button -->
-                <button type="submit" class="btn submit-button">Submit</button>
-              </div>
-            </div>
-          </form>
+          <div class="about-me-text contact-text">
+            <p>
+              Talk, or email, LinkedIn, etc. The point being: I'd love to work
+              together. Feel free to call, follow, or connect anytime.
+            </p>
+            <ul>
+              <!-- Phone -->
+              <li><i class="fas fa-phone"></i> Phone: (407) 758-9719</li>
+              <br />
+              <!-- Email -->
+              <li>
+                <i class="fas fa-envelope-open-text"></i>
+                <a href="mailto:crowe828@gmail.com"
+                  >Email: Crowe828@gmail.com</a
+                >
+              </li>
+              <br />
+              <!-- GitHub -->
+              <li>
+                <i class="fab fa-github-square"></i>
+                <a href="https://github.com/Crowe828" target="_blank"
+                  >GitHub: Crowe828</a
+                >
+              </li>
+              <br />
+              <!-- LinkedIn -->
+              <li>
+                <i class="fab fa-linkedin"></i>
+                <a
+                  href="https://www.linkedin.com/in/christiantrowe/"
+                  target="_blank"
+                  >LinkedIn: Christian Taylor Rowe</a
+                >
+              </li>
+              <br />
+              <!-- Resume -->
+              <li>
+                <i class="fas fa-file-pdf"></i>
+                <a
+                  href="https://drive.google.com/file/d/1swA9QliQ3PuwkHO6LzbWN15iu8-53xyk/view?usp=sharing"
+                  target="_blank"
+                  >Download Resume</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -215,28 +216,15 @@
 
       <!-- GitHub -->
       <i class="fab fa-github-square"></i>
-      <a href="https://github.com/Crowe828" target="_blank">GitHub</a>
+      <a href="https://github.com/crowe828/" target="_blank">GitHub</a>
 
       <!-- LinkedIn -->
       <i class="fab fa-linkedin"></i>
       <a href="https://www.linkedin.com/in/christiantrowe/" target="_blank"
         >LinkedIn</a
       >
-
-      <!-- Facebook -->
-      <i class="fab fa-facebook-square"></i>
-      <a href="https://www.facebook.com/christiantaylorrowe/" target="_blank"
-        >Facebook</a
-      >
-
-      <!-- Instagram -->
-      <i class="fab fa-instagram-square"></i>
-      <a href="https://www.instagram.com/thatpapi/" target="_blank"
-        >Instagram</a
-      >
-
       <!-- Copyright -->
-      <p>Christian Rowe &copy; Copyright 2020. All rights reserved.</p>
+      <p>Christian Rowe &copy; Copyright.</p>
     </footer>
 
     <!-- JavaScript necessary for Bootstrap -->
@@ -257,5 +245,7 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+
+    <script src="/assets/js/script.js"></script>
   </body>
 </html>
