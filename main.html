@@ -28,7 +28,7 @@
     <title>Christian Rowe. About.</title>
   </head>
 
-  <body>
+  <body id="top" class="main-page">
     <header class="header">
       <a href="index.html" class="splash-return">(Christian) Rowe.</a>
     </header>
@@ -36,10 +36,10 @@
       <!-- Portfolio, About, and Contact buttons on the secdond Navbar -->
       <div class="navbar-nav navbar-menu container justify-content-center">
         <!-- About button is currently active -->
-        <a class="nav-link nav-btn active" href="#">About</a>
-        <a class="nav-link nav-btn" href="contact.html">Contact</a>
-        <div class="btn-group nav-btn">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-link nav-btn active" href="#about">About</a>
+        <a class="nav-link nav-btn" href="#contact">Contact</a>
+        <div class="btn-group">
+          <a class="nav-link nav-btn" href="#portfolio">Portfolio</a>
           <button
             type="button"
             class="btn dropdown-toggle dropdown-toggle-split"
@@ -75,7 +75,7 @@
     <div class="container main">
       <!-- About Me -->
       <!-- <section class="about"> -->
-      <div class="row">
+      <div class="row" id="about">
         <div class="col-md-6 my-face-div">
           <img
             class="my-face rounded"
@@ -101,7 +101,7 @@
       <!-- </section> -->
       <!-- Portfolio -->
       <!-- <section class="portfolio"> -->
-      <div class="row">
+      <div class="row" id="portfolio">
         <div class="col about-me rounded">
           <h2 class="my-heading">Things I Make: A Portfolio.</h2>
           <div class="container">
@@ -179,8 +179,8 @@
       <!-- </section> -->
       <!-- Contact -->
       <!-- <section class="contact"> -->
-      <div class="row">
-        <div class="col-md about-me rounded">
+      <div class="row" id="contact">
+        <div class="col-md-6 about-me rounded">
           <h2 class="my-heading">Let's Talk.</h2>
           <hr />
           <div class="about-me-text contact-text">
@@ -194,60 +194,59 @@
               <li><i class="fas fa-phone"></i> Phone: (407) 758-9719</li>
               <br />
               <!-- Email -->
-              <li>
-                <i class="fas fa-envelope-open-text"></i>
-                <a href="mailto:crowe828@gmail.com"
-                  >Email: Crowe828@gmail.com</a
+              <li class="contact-link">
+                <a class="contact-link" href="mailto:crowe828@gmail.com"
+                  ><i class="fas fa-envelope-open-text"></i> Email:
+                  Crowe828@gmail.com</a
                 >
               </li>
               <br />
               <!-- GitHub -->
               <li>
-                <i class="fab fa-github-square"></i>
-                <a href="https://github.com/Crowe828" target="_blank"
-                  >GitHub: Crowe828</a
+                <a
+                  class="contact-link"
+                  href="https://github.com/Crowe828"
+                  target="_blank"
+                  ><i class="fab fa-github-square"></i> GitHub: Crowe828</a
                 >
               </li>
               <br />
               <!-- LinkedIn -->
               <li>
-                <i class="fab fa-linkedin"></i>
                 <a
+                  class="contact-link"
                   href="https://www.linkedin.com/in/christiantrowe/"
                   target="_blank"
-                  >LinkedIn: Christian Taylor Rowe</a
+                >
+                  <i class="fab fa-linkedin"></i> LinkedIn: Christian Taylor
+                  Rowe</a
                 >
               </li>
             </ul>
-            <!-- Resume -->
-            <a
-              class="btn btn-lg resume-btn"
-              href="https://drive.google.com/file/d/1swA9QliQ3PuwkHO6LzbWN15iu8-53xyk/view?usp=sharing"
-              target="_blank"
-              role="button"
-              >Download Resume</a
-            >
           </div>
+          <!-- Resume -->
+          <a
+            class="btn btn-lg resume-btn"
+            href="https://drive.google.com/file/d/1swA9QliQ3PuwkHO6LzbWN15iu8-53xyk/view?usp=sharing"
+            target="_blank"
+            role="button"
+            >Download Resume</a
+          >
         </div>
       </div>
       <!-- </section> -->
     </div>
 
     <footer>
-      <!-- Email -->
-      <i class="fas fa-envelope-open-text"></i>
-      <a href="mailto:crowe828@gmail.com">Email</a>
-
-      <!-- GitHub -->
-      <i class="fab fa-github-square"></i>
-      <a href="https://github.com/crowe828/" target="_blank">GitHub</a>
-
-      <!-- LinkedIn -->
-      <i class="fab fa-linkedin"></i>
-      <a href="https://www.linkedin.com/in/christiantrowe/" target="_blank"
-        >LinkedIn</a
-      >
-      <p>Thanks for coming :)</p>
+      <a class="footer-text" href="#top">
+      <p>
+        <br>
+        This portfolio was made by using a lot of coffee and minimal amount of
+        duct tape.
+        <br />
+        Back to top
+      </p>
+    </a>
     </footer>
 
     <script

@@ -1,16 +1,30 @@
-body {
+.splash-page {
+  background-color: rgb(242, 242, 247);
+}
+
+.main-page {
   background-color: rgb(58, 58, 60);
+}
+
+.splash-page,
+.main-page {
   font-family: "Rubik", sans-serif;
 }
 
 footer {
+  font-size: 12px;
   bottom: 0px;
-  font-size: 10px;
   text-align: center;
-  color: rgb(99, 99, 102);
   background-color: rgb(242, 242, 247);
-  padding: 15px;
-  height: 60px;
+  height: 80px;
+}
+
+.footer-text {
+  color: rgb(99, 99, 102);
+}
+
+.footer-text:hover {
+  text-decoration: none;
 }
 
 .header {
@@ -26,19 +40,17 @@ footer {
 .nav-btn {
   margin-left: 3px;
   margin-right: 3px;
+  color: rgb(72, 72, 74);
 }
 
 .nav-btn:hover,
 .nav-btn:active {
   border-radius: 10px 10px 10px 10px;
+  color: rgb(72, 72, 74);
 }
 
 .nav-btn:hover {
   background-color: rgb(229, 229, 234);
-}
-
-.nav-btn:active {
-  background-color: rgb(209, 209, 214);
 }
 
 .dropdown-toggle-split {
@@ -53,7 +65,8 @@ footer {
 }
 
 .splash-btn:hover,
-.resume-btn:hover {
+.resume-btn:hover,
+.nav-btn:active {
   background-color: rgb(209, 209, 214);
 }
 
@@ -64,6 +77,46 @@ footer {
 
 .splash-return:hover {
   color: rgb(72, 72, 74);
+}
+
+.splash-return:active {
+  color: rgb(72, 72, 74);
+}
+.splash-return:visited {
+  color: rgb(72, 72, 74);
+}
+
+.image-text,
+.contact-link {
+  color: rgb(242, 242, 247);
+}
+
+.image-text:hover,
+.contact-link:hover {
+  color: rgb(209, 209, 214);
+  text-decoration: none;
+}
+
+.image-text:active,
+.contact-link:active {
+  color: rgb(199, 199, 204);
+}
+
+.image-text {
+  font-size: 20px;
+  padding: 5px;
+  width: 100%;
+  bottom: 20px;
+}
+
+.header,
+.image-text {
+  text-align: center;
+}
+
+.header,
+.my-heading {
+  font-weight: bold;
 }
 
 .main {
@@ -93,6 +146,7 @@ footer {
 .resume-btn {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .card-container {
@@ -101,31 +155,11 @@ footer {
   margin-bottom: 20px;
 }
 
-/* The text on top of each image in the portfolio */
-.image-text {
-  color: rgb(242, 242, 247);
-  font-size: 20px;
-  padding: 5px;
-  width: 100%;
-  bottom: 20px;
-}
-
-.header,
-.image-text {
-  text-align: center;
-}
-
-/* These classes all have bolded text */
-.header,
-.my-heading {
-  font-weight: bold;
-}
-
 .contact-text {
   font-size: 18px;
 }
 
-.splash-page {
+.splash-text {
   height: 200px;
   width: 400px;
   position: fixed;
@@ -134,22 +168,4 @@ footer {
   left: 50%;
   margin-top: -100px;
   margin-left: -200px;
-}
-
-/* Styling links to social media */
-a:link {
-  color: rgb(99, 99, 102);
-}
-
-a:visited {
-  color: rgb(99, 99, 102);
-  text-decoration: none;
-}
-a:hover {
-  color: rgb(0, 122, 255);
-  text-decoration: none;
-}
-a:active {
-  color: rgb(142, 142, 147);
-  text-decoration: none;
 }
