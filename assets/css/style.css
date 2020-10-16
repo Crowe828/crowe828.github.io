@@ -58,6 +58,7 @@ footer {
 }
 
 .splash-btn {
+  margin-top: 20px;
   transition: all 0.2s ease-in-out;
   color: rgb(99, 99, 102);
 }
@@ -180,11 +181,28 @@ footer {
   left: 50%;
   margin-top: -100px;
   margin-left: -200px;
-  animation-name: splashTextColor;
-  animation-duration: 5s;
+}
+
+.block-reveal {
+  --t: calc(var(--td) + var(--d));
+  color: transparent;
+  position: relative;
+  overflow: hidden;
+  animation: splashTextColor 5s var(--t) forwards;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
+}
+
+.block-reveal::after {
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--bc);
+  animation: revealingIn var(--td) var(--d) forwards,
+    revealingOut var(--td) var(--t) forwards;
 }
 
 @keyframes splashTextColor {
@@ -202,5 +220,23 @@ footer {
   }
   100% {
     color: #ff9b85;
+  }
+}
+
+@keyframes revealingIn {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes revealingOut {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
   }
 }
