@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Reset.css -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <!-- Bootstrap.css -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome  -->
+    <script
+      src="https://kit.fontawesome.com/79351323a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- stylesheet.css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Name of page -->
+    <title>Christian Rowe. About.</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="index.html" class="splash-return">(Christian) Rowe.</a>
+    </header>
+    <nav class="navbar navbar-expand">
+      <!-- Portfolio, About, and Contact buttons on the secdond Navbar -->
+      <div class="navbar-nav navbar-menu container justify-content-center">
+        <!-- About button is currently active -->
+        <a class="nav-link nav-btn active" href="#">About</a>
+        <a class="nav-link nav-btn" href="contact.html">Contact</a>
+        <div class="btn-group nav-btn">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <button
+            type="button"
+            class="btn dropdown-toggle dropdown-toggle-split"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+            <a
+              class="dropdown-item"
+              href="https://crowe828.github.io/inkmap/"
+              target="_blank"
+              >InkMap</a
+            >
+            <a
+              class="dropdown-item"
+              href="https://crowe828.github.io/weather-dashboard/"
+              target="_blank"
+              >Weather Dashboard</a
+            >
+            <a
+              class="dropdown-item"
+              href="https://crowe828.github.io/work-day-scheduler/"
+              target="_blank"
+              >Work Day Scheduler</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container main">
+      <!-- About Me -->
+      <!-- <section class="about"> -->
+      <div class="row">
+        <div class="col-md-6 my-face-div">
+          <img
+            class="my-face rounded"
+            src="./assets/images/my-face/me-bricks.jpeg"
+            alt="My face"
+          />
+        </div>
+        <div class="col-md-6 about-me rounded">
+          <h2 class="my-heading">Me: An Introduction.</h2>
+          <!-- A few paragraphs about me -->
+          <p class="about-me-text">
+            <br />
+            I'm Christian. My first goal in life is to be on Double Dare: 2000.
+            My second is to create simple, understandable applications.
+            <br />
+            <br />
+            Facts about me: I have a collection of over 50 Rubik's Cubes and
+            host a podcast called "Bad Movie Journalists" where I discuss the
+            beauty in bad movies.
+          </p>
+        </div>
+      </div>
+      <!-- </section> -->
+      <!-- Portfolio -->
+      <!-- <section class="portfolio"> -->
+      <div class="row">
+        <div class="col about-me rounded">
+          <h2 class="my-heading">Things I Make: A Portfolio.</h2>
+          <div class="container">
+            <!-- InkMap -->
+            <div class="row">
+              <a
+                href="https://github.com/Crowe828/inkmap"
+                target="_blank"
+                class="image-text"
+                ><i class="fab fa-github-square"></i> InkMap: Inspiring your
+                next tattoo. Showing you where to get it done.</a
+              >
+              <!-- Card container with a relative position so that it is responsive and always centered -->
+              <div class="d-flex col-md card-container justify-content-center">
+                <a href="https://crowe828.github.io/inkmap/" target="_blank">
+                  <img
+                    src="./assets/images/portfolio/inkmap.png"
+                    class="img-thumbnail img-fluid"
+                    alt="inkmap"
+                /></a>
+              </div>
+            </div>
+
+            <!-- Weather Dashboard -->
+            <div class="row">
+              <a
+                href="https://github.com/Crowe828/work-day-scheduler"
+                target="_blank"
+                class="image-text"
+              >
+                <i class="fab fa-github-square"></i> Weather Dashboard: A simple
+                weather experience.</a
+              >
+
+              <!-- Card container with a relative position so that it is responsive and always centered -->
+              <div class="d-flex col-md card-container justify-content-center">
+                <a
+                  href="https://crowe828.github.io/weather-dashboard/"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/portfolio/weather-dashboard.png"
+                    class="img-thumbnail img-fluid"
+                    alt="weather-dashboard"
+                /></a>
+              </div>
+            </div>
+
+            <!-- Work Day Scheduler -->
+            <div class="row">
+              <a
+                href="https://github.com/Crowe828/work-day-scheduler"
+                target="_blank"
+                class="image-text"
+                ><i class="fab fa-github-square"></i> Work Day Scheduler: A lite
+                planner for your work day.
+              </a>
+
+              <!-- Card container with a relative position so that it is responsive and always centered -->
+              <div class="d-flex col-md card-container justify-content-center">
+                <a
+                  href="https://crowe828.github.io/work-day-scheduler/"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/portfolio/work-day-scheduler.png"
+                    class="img-thumbnail img-fluid"
+                    alt="work-day-scheduler"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- </section> -->
+      <!-- Contact -->
+      <!-- <section class="contact"> -->
+      <div class="row">
+        <div class="col-md about-me rounded">
+          <h2 class="my-heading">Let's Talk.</h2>
+          <hr />
+          <div class="about-me-text contact-text">
+            <p>
+              Talk, or email, LinkedIn, etc. The point being: I'd love to work
+              together. Feel free to call, follow, or connect anytime.
+            </p>
+            <!-- Contact Info -->
+            <ul>
+              <!-- Phone -->
+              <li><i class="fas fa-phone"></i> Phone: (407) 758-9719</li>
+              <br />
+              <!-- Email -->
+              <li>
+                <i class="fas fa-envelope-open-text"></i>
+                <a href="mailto:crowe828@gmail.com"
+                  >Email: Crowe828@gmail.com</a
+                >
+              </li>
+              <br />
+              <!-- GitHub -->
+              <li>
+                <i class="fab fa-github-square"></i>
+                <a href="https://github.com/Crowe828" target="_blank"
+                  >GitHub: Crowe828</a
+                >
+              </li>
+              <br />
+              <!-- LinkedIn -->
+              <li>
+                <i class="fab fa-linkedin"></i>
+                <a
+                  href="https://www.linkedin.com/in/christiantrowe/"
+                  target="_blank"
+                  >LinkedIn: Christian Taylor Rowe</a
+                >
+              </li>
+            </ul>
+            <!-- Resume -->
+            <a
+              class="btn btn-lg resume-btn"
+              href="https://drive.google.com/file/d/1swA9QliQ3PuwkHO6LzbWN15iu8-53xyk/view?usp=sharing"
+              target="_blank"
+              role="button"
+              >Download Resume</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- </section> -->
+    </div>
+
+    <footer>
+      <!-- Email -->
+      <i class="fas fa-envelope-open-text"></i>
+      <a href="mailto:crowe828@gmail.com">Email</a>
+
+      <!-- GitHub -->
+      <i class="fab fa-github-square"></i>
+      <a href="https://github.com/crowe828/" target="_blank">GitHub</a>
+
+      <!-- LinkedIn -->
+      <i class="fab fa-linkedin"></i>
+      <a href="https://www.linkedin.com/in/christiantrowe/" target="_blank"
+        >LinkedIn</a
+      >
+      <p>Thanks for coming :)</p>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

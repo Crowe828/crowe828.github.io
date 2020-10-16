@@ -1,59 +1,26 @@
-/* Background is grey for every page but the front */
 body {
-  background-color: rgb(242, 242, 247);
+  background-color: rgb(58, 58, 60);
   font-family: "Rubik", sans-serif;
 }
 
-/* A fixed footer which stays at the bottom of the viewport at all times */
 footer {
-  position: fixed;
-  width: 100%;
   bottom: 0px;
+  font-size: 10px;
   text-align: center;
   color: rgb(99, 99, 102);
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(242, 242, 247);
   padding: 15px;
   height: 60px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: rgb(199, 199, 204);
-  font-size: 10px;
 }
 
-/* My name which appears at the top of the viewport on sm and xs viewports */
 .header {
   font-size: 72px;
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(242, 242, 247);
 }
 
-/* Navbar at the top of the viewport, not fixed to the top of the viewport */
 .navbar {
-  background-color: rgb(250, 250, 250);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: rgb(199, 199, 204);
-}
-
-.active,
-.splash-btn,
-.resume-btn {
-  background-color: rgb(229, 229, 234);
-  border-radius: 10px 10px 10px 10px;
-}
-
-.splash-btn:hover,
-.resume-btn:hover {
-  background-color: rgb(209, 209, 214);
-}
-
-.splash-btn:active,
-.resume-btn:active {
-  background-color: rgb(199, 199, 204);
-}
-
-.resume-btn {
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  background-color: rgb(242, 242, 247);
 }
 
 .nav-btn {
@@ -78,91 +45,78 @@ footer {
   color: rgb(174, 174, 178);
 }
 
+.active,
+.splash-btn,
+.resume-btn {
+  background-color: rgb(229, 229, 234);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.splash-btn:hover,
+.resume-btn:hover {
+  background-color: rgb(209, 209, 214);
+}
+
+.splash-btn:active,
+.resume-btn:active {
+  background-color: rgb(199, 199, 204);
+}
+
 .splash-return:hover {
   color: rgb(72, 72, 74);
 }
 
-/* My name which appears within the navbar */
-.my-name {
-  font-size: 28px;
-  padding: 9px;
-  margin: -9px;
+.main {
+  margin-top: 50px;
 }
 
-/* The main container on each page */
 .about-me {
-  background-color: rgb(250, 250, 250);
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgb(199, 199, 204);
-  margin-bottom: 100px;
+  background-color: rgb(99, 99, 102);
+  color: rgb(242, 242, 247);
+  margin-bottom: 50px;
 }
 
-/* The heading of the main container on each page */
 .my-heading {
-  color: rgb(58, 58, 60);
   margin: 10px;
 }
 
-/* Picture of me on the Index page for medium or larger viewports */
-.carousel {
-  width: 300px;
-  float: left;
-  margin-right: 15px;
-  margin-bottom: 15px;
-}
-
-/* Main text within the About Me section on the Index */
 .about-me-text {
   font-size: 18px;
-  color: rgb(99, 99, 102);
-  margin: 15px;
 }
 
-/* The container within the main container on the Portfolio page, which houses all of my projects */
+.my-face {
+  max-width: 100%;
+  max-height: auto;
+  margin-bottom: 50px;
+}
+
+.resume-btn {
+  display: flex;
+  justify-content: center;
+}
+
 .card-container {
   position: relative;
   padding: 0;
-}
-
-.submit-button {
-  color: white;
-  background-color: rgb(0, 122, 255);
-  text-align: center;
-  border-radius: 10px 10px 10px 10px;
-}
-
-/* The submit button on the contact page as well as the card container from the portfolio page both use the same bottom margin */
-.card-container,
-.submit-button {
   margin-bottom: 20px;
 }
 
 /* The text on top of each image in the portfolio */
 .image-text {
+  color: rgb(242, 242, 247);
   font-size: 20px;
   padding: 5px;
   width: 100%;
   bottom: 20px;
 }
 
-/* Width of the image-text must change due to the size of the images increasing */
-.image-text-2 {
-  width: 400px;
-}
-
-/* These classes all use the same color, background color, and alignment */
 .header,
-.my-name,
-.image-text,
-.image-text-2 {
-  color: rgb(44, 44, 46);
+.image-text {
   text-align: center;
 }
 
 /* These classes all have bolded text */
 .header,
-.my-name,
 .my-heading {
   font-weight: bold;
 }
@@ -183,24 +137,18 @@ footer {
 }
 
 /* Styling links to social media */
-/* Links are normally light grey */
 a:link {
   color: rgb(99, 99, 102);
 }
 
-/* Once visited they will remain grey */
 a:visited {
   color: rgb(99, 99, 102);
   text-decoration: none;
 }
-
-/* When hovering over the links, they will be midnight blue */
 a:hover {
   color: rgb(0, 122, 255);
   text-decoration: none;
 }
-
-/* clicking on the link makes it the following shade of blue/green */
 a:active {
   color: rgb(142, 142, 147);
   text-decoration: none;
