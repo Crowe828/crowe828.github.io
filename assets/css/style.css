@@ -57,6 +57,15 @@ footer {
   color: rgb(174, 174, 178);
 }
 
+.splash-btn {
+  transition: all 0.2s ease-in-out;
+  color: rgb(99, 99, 102);
+}
+
+.splash-btn:hover {
+  transform: scale(1.1);
+}
+
 .active,
 .splash-btn,
 .resume-btn {
@@ -66,6 +75,7 @@ footer {
 
 .splash-btn:hover,
 .resume-btn:hover,
+.active:hover,
 .nav-btn:active {
   background-color: rgb(209, 209, 214);
 }
@@ -75,15 +85,17 @@ footer {
   background-color: rgb(199, 199, 204);
 }
 
-.splash-return:hover {
+.splash-return {
   color: rgb(72, 72, 74);
 }
 
-.splash-return:active {
-  color: rgb(72, 72, 74);
+.splash-return:hover {
+  color: rgb(44, 44, 46);
+  text-decoration: none;
 }
-.splash-return:visited {
-  color: rgb(72, 72, 74);
+
+.splash-return:active {
+  color: rgb(28, 28, 30);
 }
 
 .image-text,
@@ -168,4 +180,27 @@ footer {
   left: 50%;
   margin-top: -100px;
   margin-left: -200px;
+  animation-name: splashTextColor;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes splashTextColor {
+  0% {
+    color: #ee6055;
+  }
+  25% {
+    color: #60d394;
+  }
+  50% {
+    color: #aaf683;
+  }
+  75% {
+    color: #ffd97d;
+  }
+  100% {
+    color: #ff9b85;
+  }
 }
