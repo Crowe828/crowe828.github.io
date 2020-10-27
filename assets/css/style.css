@@ -1,5 +1,5 @@
 .splash-page {
-  background-color: rgb(242, 242, 247);
+  background-color: rgb(58, 58, 60);
 }
 
 .main-page {
@@ -60,7 +60,9 @@ footer {
 .splash-btn {
   margin-top: 20px;
   transition: all 0.2s ease-in-out;
-  color: rgb(99, 99, 102);
+  color: rgb(242, 242, 247);
+  background-color: #ee6055;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .splash-btn:hover {
@@ -68,7 +70,6 @@ footer {
 }
 
 .active,
-.splash-btn,
 .resume-btn {
   background-color: rgb(229, 229, 234);
   border-radius: 10px 10px 10px 10px;
@@ -173,14 +174,15 @@ footer {
 }
 
 .splash-text {
-  height: 200px;
-  width: 400px;
+  font-size: 60px;
+  height: 500px;
+  width: 600px;
   position: fixed;
   text-align: center;
   top: 50%;
   left: 50%;
   margin-top: -100px;
-  margin-left: -200px;
+  margin-left: -300px;
 }
 
 .block-reveal {
