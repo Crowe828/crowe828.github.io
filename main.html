@@ -22,6 +22,9 @@
       src="https://kit.fontawesome.com/79351323a4.js"
       crossorigin="anonymous"
     ></script>
+    <!-- script.js -->
+    <script src="./assets/js/script.js"></script>
+
     <!-- stylesheet.css -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Name of page -->
@@ -32,9 +35,10 @@
     <header class="header">
       <a href="index.html" class="splash-return">(Christian) Rowe.</a>
     </header>
+
     <nav class="navbar navbar-expand">
       <div class="navbar-nav navbar-menu container justify-content-center">
-        <a class="nav-link nav-btn active" href="#about">About</a>
+        <a class="nav-link nav-btn" href="#about">About</a>
         <a class="nav-link nav-btn" href="#contact">Contact</a>
         <div class="btn-group nav-btn">
           <a class="nav-link nav-btn" href="#portfolio">Portfolio</a>
@@ -50,9 +54,21 @@
           <div class="dropdown-menu">
             <a
               class="dropdown-item"
+              href="https://mega-awesome.herokuapp.com"
+              target="_blank"
+              >Alien Town</a
+            >
+            <a
+              class="dropdown-item"
               href="https://crowe828.github.io/inkmap/"
               target="_blank"
               >InkMap</a
+            >
+            <a
+              class="dropdown-item"
+              href="https://shrouded-plateau-24290.herokuapp.com"
+              target="_blank"
+              >BurgerTime</a
             >
             <a
               class="dropdown-item"
@@ -70,9 +86,10 @@
         </div>
       </div>
     </nav>
+
     <div class="main">
       <!-- About Me -->
-      <section class="about">
+      <section id="about">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
@@ -101,7 +118,7 @@
       </section>
 
       <!-- Portfolio -->
-      <section class="portfolio">
+      <section id="portfolio">
         <div class="container">
           <div class="row">
             <div class="col about-me rounded">
@@ -113,8 +130,9 @@
                     href="https://github.com/Crowe828/alientown"
                     target="_blank"
                     class="image-text"
-                    ><i class="fab fa-github-square"></i> A web application
-                    built for conspiracy theorists and alien lovers alike.</a
+                    ><i class="fab fa-github-square"></i> Alien Town: A web
+                    application built for conspiracy theorists and alien lovers
+                    alike.</a
                   >
                   <div
                     class="d-flex col-md card-container justify-content-center"
@@ -233,7 +251,7 @@
       </section>
 
       <!-- Contact -->
-      <section class="contact">
+      <section id="contact">
         <div class="container">
           <div class="row">
             <div class="col-md-6 about-me rounded">
@@ -306,7 +324,7 @@
           This portfolio was made by using a lot of coffee and minimal amount of
           duct tape.
           <br />
-          Back to top
+          Back to top <i class="fas fa-arrow-up"></i>
         </p>
       </a>
     </footer>
