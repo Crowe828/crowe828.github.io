@@ -1,24 +1,24 @@
 # Portfolio
 
+The purpose of this document is to track what parts of my portfolio I'm working on when I'm not directly on my Mac. Then, I can go back and pull the .md file directly into VScode.
+
+**I suppose that means this could work for the rest of my projects, too...**
+
 ## To do
 
-- Take the rainbow animation off the front page
-- Find larger images to use for the background
-- Update portfolio section with more projects
+- Better styling for background
+- Try using photos from Japan as the background
+- If it doesn't work, try putting them in a card
 - Update the contact section
+- Find out how to add JavaScript
 
-## Ideas:
+## Completed
 
-2. It's broken up into sections, such as:
-   1. Splash image
-   2. Portfolio work
-      1. Have the projects appear in a 2 column grid
-      2. Each image should have a filter over it and it's title
-         1. Image is a link to the project
-         2. Think of a way to link to the github repo elegantly
-   3. About me
-   4. Contact box 1. Will include a place to enter your email and textarea to send a message
-      5.Footer with: 1. Links to my github and linkedin 2. A back to the top button
-3. Make it fun and display my personality, such as:
-   1. Rubik's Cubes
-   2. Sarcastic/dry humor
+- Update portfolio section with more projects
+- Changed the background color of the splash page
+- Changed the animation colors of my name
+- Added project links to Navbar drop down
+
+## Discarded
+
+- Take the rainbow animation off the front page

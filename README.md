@@ -1,40 +1,34 @@
-# Responsive Portfolio
+# Portfolio
 
-This portfolio has been built using HTML, CSS, and the Bootstrap framework to be responsive and work across mobile, tablet, and desktop screens alike. This project includes three pages: About, Portfolio, and Contact. Also included are links to my social media (found in the footer), as well as some info about me (found in the About page). 
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 
-## Deployment
+## Description
 
-* Portfolio: https://crowe828.github.io/responsive-portfolio/
-* GitHub Repo: https://github.com/Crowe828/responsive-portfolio
+This is my personal portfolio. It is an ever-evolving representation of the work that I strive to accomplish on a daily basis.
 
-## Images
+## Table of Contents
 
-* About Me - medium or larger viewports ![About Me Big](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/about-me-big.png)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#tests)
 
-* About Me - small or extra small viewports ![About Me Small](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/about-me-small.png)
+## Contributing
 
-* Portfolio - medium or larger viewports ![Portfolio Big](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/portfolio-big.png)
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate.
 
-* Portfolio - small or extra small viewports ![Portfolio Small](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/portfolio-small.png)
+## Tests
 
-* Contact - medium or larger viewports ![Contact Big](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/contact-big.png)
+```
+console.log(test);
+```
 
-* Contact - small or extra small viewports ![Contact Small](https://github.com/Crowe828/responsive-portfolio/blob/master/assets/images/contact-small.png)
+The console will display the word 'test'
 
+## Questions
 
-## Built With
+If you would like to learn more, feel free to check out my GitHub or send me an email anytime.
 
-* HTML5
-* CSS3
-* [Bootstrap](https://getbootstrap.com) - The web framework used
-* [Font Awesome](https://fontawesome.com) - Used for the icons within the footer
-
-## Authors
-
-* **Christian Rowe** - *Sole Contributor* - [GitHub](https://github.com/Crowe828)
-
-## Acknowledgments
-
-* This project was completed thanks to my instructor, John Wayne Dinsmore and his TA, Jorge Alvarez.
-
-* A huge thank you to all the members of our class for providing the ability to learn from each other every day.
+- [GitHub](https://github.com/crowe828)
+- [Repo](https://github.com/Crowe828/crowe828.github.io)
+- [Email Me](mailto:crowe828@gmail.com?subject=Nice%20README%20Generator%20Dude)
