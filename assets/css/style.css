@@ -1,3 +1,12 @@
+.pie {
+  width: 100%;
+  height: auto;
+}
+
+.main {
+  margin-top: 50px;
+}
+
 .splash-page {
   background-color: rgb(58, 58, 60);
 }
@@ -149,10 +158,6 @@ footer {
   font-weight: bold;
 }
 
-.main {
-  margin-top: 50px;
-}
-
 .about-me {
   background-color: rgb(99, 99, 102);
   color: rgb(242, 242, 247);
@@ -167,7 +172,8 @@ footer {
   font-size: 18px;
 }
 
-.my-face {
+.my-face,
+.ramen {
   max-width: 100%;
   max-height: auto;
   margin-bottom: 50px;
@@ -183,10 +189,6 @@ footer {
   position: relative;
   padding: 0;
   margin-bottom: 20px;
-}
-
-.contact-text {
-  font-size: 18px;
 }
 
 .splash-text {
