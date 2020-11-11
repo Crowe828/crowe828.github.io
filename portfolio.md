@@ -1,12 +1,13 @@
 ## TO DO
 
-- Convert portfolio to react
+<!-- - Convert portfolio to react -->
+<!-- - A `Header` component that appears on multiple pages -->
+<!-- - A `Footer` component that appears on multiple pages -->
+<!-- - Add CSS files seperately for each component -->
+
 - Seperate everything into components
-- A `Header` component that appears on multiple pages
 - A single `Project` component that will be used multiple times on a single page
 - Updated portfolio featuring 6 total projects
-- A `Footer` component that appears on multiple pages
-- Add CSS files seperately for each component
 - Make sure footer sticks to bottom on small screens
 - Update the contact section
 - Navigation with React Router, dynamic rendering, or another third part router

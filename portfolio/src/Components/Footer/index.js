@@ -1,5 +1,18 @@
 import React from "react";
+import "./style.css";
 
 export default function Footer() {
-  return <div>hello</div>;
+  return (
+    <footer>
+      <a className="footer-text" href="#top">
+        <p>
+          <br />
+          This portfolio was made by using a lot of coffee and minimal amount of
+          duct tape.
+          <br />
+          Back to top <i className="fa fa-arrow-up"></i>
+        </p>
+      </a>
+    </footer>
+  );
 }
