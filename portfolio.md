@@ -1,24 +1,14 @@
-# Portfolio
+## TO DO
 
-The purpose of this document is to track what parts of my portfolio I'm working on when I'm not directly on my Mac. Then, I can go back and pull the .md file directly into VScode.
-
-**I suppose that means this could work for the rest of my projects, too...**
-
-## To do
-
-- Better styling for background
-- Try using photos from Japan as the background
-- If it doesn't work, try putting them in a card
+- Convert portfolio to react
+- Seperate everything into components
+- A `Header` component that appears on multiple pages
+- A single `Project` component that will be used multiple times on a single page
+- Updated portfolio featuring 6 total projects
+- A `Footer` component that appears on multiple pages
+- Add CSS files seperately for each component
+- Make sure footer sticks to bottom on small screens
 - Update the contact section
-- Find out how to add JavaScript
-
-## Completed
-
-- Update portfolio section with more projects
-- Changed the background color of the splash page
-- Changed the animation colors of my name
-- Added project links to Navbar drop down
-
-## Discarded
-
-- Take the rainbow animation off the front page
+- Navigation with React Router, dynamic rendering, or another third part router
+- Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
+- If you want to go above and beyond, try using animations and react component libraries.
