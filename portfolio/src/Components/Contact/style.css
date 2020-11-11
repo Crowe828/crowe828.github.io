@@ -1,0 +1,40 @@
+.contact {
+  font-family: "Rubik", sans-serif;
+}
+
+.my-heading {
+  font-weight: bold;
+  margin: 10px;
+}
+
+.contact-text {
+  font-size: 18px;
+}
+
+.contact-link {
+  color: rgb(242, 242, 247);
+}
+
+.contact-link:hover {
+  color: rgb(209, 209, 214);
+  text-decoration: none;
+}
+
+.contact-link:active {
+  color: rgb(199, 199, 204);
+}
+
+.contact-btn {
+  background-color: rgb(229, 229, 234);
+  border-radius: 10px 10px 10px 10px;
+  display: inline-flex;
+  margin-bottom: 20px;
+}
+
+.contact-btn:hover {
+  background-color: rgb(209, 209, 214);
+}
+
+.contact-btn:active {
+  background-color: rgb(199, 199, 204);
+}

@@ -1,15 +1,7 @@
-import Header from "./Components/Header/index";
-import Projects from "./Components/Projects/index";
-import Footer from "./Components/Footer/index";
+import Main from "./Components/Main";
 
 function App() {
-  return (
-    <div>
-      <Header />
-      <Projects />
-      <Footer />
-    </div>
-  );
+  return <Main></Main>;
 }
 
 export default App;
