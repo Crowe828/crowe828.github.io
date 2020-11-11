@@ -24,7 +24,7 @@ const projects = [
     description:
       "Inspiring your next tattoo. Showing you where to get it done.",
     github: "https://github.com/Crowe828/inkmap",
-    appLink: "https://crowe828.github.io/inkmap/",
+    appLink: "https://crowe828.github.io/inkmap",
     img: InkMap,
   },
   {
@@ -40,7 +40,7 @@ const projects = [
     name: "Weather Dashboard",
     description: "A simple weather experience.",
     github: "https://github.com/Crowe828/weather-dashboard",
-    appLink: "https://crowe828.github.io/weather-dashboard/",
+    appLink: "https://crowe828.github.io/weather-dashboard",
     img: WeatherDashboard,
   },
   {
@@ -56,7 +56,7 @@ const projects = [
     name: "Worker Library",
     description: "A semi-smart application to track all of your employees.",
     github: "https://github.com/Crowe828/worker-library",
-    appLink: "https://crowe828.github.io/worker-library/",
+    appLink: "https://crowe828.github.io/worker-library",
     img: WorkerLibrary,
   },
 ];

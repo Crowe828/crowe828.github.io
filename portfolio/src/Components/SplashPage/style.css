@@ -1,0 +1,55 @@
+.splash-page {
+  background-color: rgb(58, 58, 60);
+  font-family: "Rubik", sans-serif;
+}
+
+.splash-text {
+  font-size: 60px;
+  height: 500px;
+  width: 600px;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -300px;
+}
+
+.splash-btn {
+  margin-top: 20px;
+  transition: all 0.2s ease-in-out;
+  color: rgb(242, 242, 247);
+  background-color: #ee6055;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.splash-btn:hover {
+  transform: scale(1.1);
+  background-color: rgb(209, 209, 214);
+}
+
+.splash-btn:active {
+  background-color: rgb(199, 199, 204);
+}
+
+.block-reveal {
+  --t: calc(var(--td) + var(--d));
+  color: transparent;
+  position: relative;
+  overflow: hidden;
+  animation: splashTextColor 5s var(--t) forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.block-reveal::after {
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--bc);
+  animation: revealingIn var(--td) var(--d) forwards,
+    revealingOut var(--td) var(--t) forwards;
+}
