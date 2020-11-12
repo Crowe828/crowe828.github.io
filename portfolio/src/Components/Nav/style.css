@@ -51,3 +51,10 @@
 .dropdown-toggle-split {
   color: rgb(174, 174, 178);
 }
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+}
