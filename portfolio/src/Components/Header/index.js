@@ -4,8 +4,10 @@ import "./style.css";
 
 export default function Header() {
   return (
-    <header className="header splash-return">
-      <Link to="/">(Christian) Rowe.</Link>
+    <header className="header">
+      <Link to="/" className=" splash-return">
+        (Christian) Rowe.
+      </Link>
     </header>
   );
 }

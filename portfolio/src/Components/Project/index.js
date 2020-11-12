@@ -12,8 +12,8 @@ export default function Projects(props) {
             target="_blank"
             className="img-txt"
           >
-            <i className="fa fa-github-square"></i>
-            {project.name}: {project.description}
+            <i className="fa fa-github-square"></i> {project.name}:{" "}
+            {project.description}
           </a>
           <div className="d-flex col-md card-container justify-content-center">
             <a href={project.appLink} rel="noreferrer noopener" target="_blank">

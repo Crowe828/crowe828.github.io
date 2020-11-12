@@ -29,7 +29,7 @@ const projects = [
   },
   {
     id: 3,
-    name: "STOP: BurgerTime.",
+    name: "BurgerTime",
     description: "Track your daily consumption of Burgers. Yes, really.",
     github: "https://github.com/Crowe828/burger",
     appLink: "https://shrouded-plateau-24290.herokuapp.com",
@@ -63,13 +63,13 @@ const projects = [
 
 export default function AllProjects() {
   return (
-    <div className="container portfolio">
+    <div className="container portfolio" id="portfolio">
       <div className="row">
         <div className="col projects rounded">
           <h2 className="heading">Things I Make: A Portfolio.</h2>
-          <hr/>
+          <hr />
           <div className="container projects">
-            <Project projects={projects}/>
+            <Project projects={projects} />
           </div>
         </div>
       </div>

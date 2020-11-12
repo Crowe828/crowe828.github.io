@@ -4,7 +4,7 @@ import MyFace from "./Images/me-bricks.jpeg";
 
 export default function About() {
   return (
-    <div className="container">
+    <div className="container" id="about">
       <div className="row">
         <div className="col-md-6">
           <img className="my-face rounded" src={MyFace} alt="My face" />

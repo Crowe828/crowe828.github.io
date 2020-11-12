@@ -35,7 +35,7 @@ export default function Nav() {
             </a>
             <a
               className="dropdown-item"
-              href="https://crowe828.github.io/inkmap/"
+              href="https://crowe828.github.io/inkmap"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -51,7 +51,7 @@ export default function Nav() {
             </a>
             <a
               className="dropdown-item"
-              href="https://crowe828.github.io/weather-dashboard/"
+              href="https://crowe828.github.io/weather-dashboard"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -59,11 +59,19 @@ export default function Nav() {
             </a>
             <a
               className="dropdown-item"
-              href="https://crowe828.github.io/work-day-scheduler/"
+              href="https://crowe828.github.io/work-day-scheduler"
               rel="noreferrer noopener"
               target="_blank"
             >
               Work Day Scheduler
+            </a>
+            <a
+              className="dropdown-item"
+              href="https://crowe828.github.io/worker-library"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              Worker Library
             </a>
           </div>
         </div>
