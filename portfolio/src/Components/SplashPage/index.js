@@ -4,7 +4,7 @@ import "./style.css";
 
 export default function SplashPage() {
   return (
-    <body className="splash-page">
+    <div className="splash-page">
       <h1 className="block-effect" style={{ "--td": "1s" }}>
         <div className="splash-text">
           <div
@@ -19,13 +19,11 @@ export default function SplashPage() {
           >
             Welcome.
           </div>
-          <Link to="/main">
-            <div className="btn btn-lg splash-btn" role="button">
-              Enter.
-            </div>
+          <Link to="/main" className="btn btn-lg splash-btn">
+            Enter.
           </Link>
         </div>
       </h1>
-    </body>
+    </div>
   );
 }

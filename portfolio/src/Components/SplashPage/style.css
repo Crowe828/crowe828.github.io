@@ -1,6 +1,9 @@
 .splash-page {
-  background-color: rgb(58, 58, 60);
   font-family: "Rubik", sans-serif;
+  background-color: #3a3a3c;
+  height: 100%;
+  width: 100%;
+  position: fixed;
 }
 
 .splash-text {
@@ -18,18 +21,18 @@
 .splash-btn {
   margin-top: 20px;
   transition: all 0.2s ease-in-out;
-  color: rgb(242, 242, 247);
+  color: #f2f2f7;
   background-color: #ee6055;
   border-radius: 10px 10px 10px 10px;
 }
 
 .splash-btn:hover {
   transform: scale(1.1);
-  background-color: rgb(209, 209, 214);
+  background-color: #d1d1d6;
 }
 
 .splash-btn:active {
-  background-color: rgb(199, 199, 204);
+  background-color: #c7c7cc;
 }
 
 .block-reveal {
@@ -52,4 +55,40 @@
   background: var(--bc);
   animation: revealingIn var(--td) var(--d) forwards,
     revealingOut var(--td) var(--t) forwards;
+}
+
+@keyframes splashTextColor {
+  0% {
+    color: #ee6055;
+  }
+  25% {
+    color: #60d394;
+  }
+  50% {
+    color: #aaf683;
+  }
+  75% {
+    color: #ffd97d;
+  }
+  100% {
+    color: #ff9b85;
+  }
+}
+
+@keyframes revealingIn {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes revealingOut {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
