@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 import Project from "../Project";
 import AlienTown from "./Images/alientown.png";
 import BurgerTime from "./Images/burgertime.png";
@@ -7,6 +6,7 @@ import InkMap from "./Images/inkmap.png";
 import WeatherDashboard from "./Images/weather-dashboard.png";
 import WorkDayScheduler from "./Images/work-day-scheduler.png";
 import WorkerLibrary from "./Images/worker-library.png";
+import "./style.css";
 
 const projects = [
   {
@@ -67,8 +67,9 @@ export default function AllProjects() {
       <div className="row">
         <div className="col projects rounded">
           <h2 className="heading">Things I Make: A Portfolio.</h2>
-          <div className="container">
-            <Project projects={projects} />
+          <hr/>
+          <div className="container projects">
+            <Project projects={projects}/>
           </div>
         </div>
       </div>

@@ -7,8 +7,8 @@ export default function Footer() {
       <a className="footer-text" href="#top">
         <p>
           <br />
-          This portfolio was made by using a lot of coffee and minimal amount of
-          duct tape.
+          This portfolio was made using a lot of coffee and only a little duct
+          tape.
           <br />
           Back to top <i className="fa fa-arrow-up"></i>
         </p>
