@@ -17,56 +17,44 @@ export default function Contact() {
             </p>
             <br />
 
-            <ul>
-              <li>
+            <div className="list-group">
+              <li className="list-group-item list-group-item-dark list-group-item-action">
                 <i className="fa fa-phone"></i> Phone: (407) 758-9719
               </li>
-              <br />
-
-              <li className="contact-link">
-                <a className="contact-link" href="mailto:crowe828@gmail.com">
-                  <i className="fa fa-envelope-open-text"></i> Email:
-                  Crowe828@gmail.com
-                </a>
-              </li>
-              <br />
-
-              <li>
-                <a
-                  className="contact-link"
-                  href="https://github.com/Crowe828"
-                  rel="noreferrer noopener"
-                  target="_blank"
-                >
-                  <i className="fa fa-github-square"></i> GitHub: Crowe828
-                </a>
-              </li>
-              <br />
-
-              <li>
-                <a
-                  className="contact-link"
-                  href="https://www.linkedin.com/in/christiantrowe/"
-                  rel="noreferrer noopener"
-                  target="_blank"
-                >
-                  <i className="fa fa-linkedin"></i> LinkedIn: Christian Taylor
-                  Rowe
-                </a>
-              </li>
-            </ul>
+              <a
+                className="list-group-item list-group-item-dark list-group-item-action"
+                href="mailto:crowe828@gmail.com"
+              >
+                <i className="fa fa-envelope-open-text"></i> Email:
+                Crowe828@gmail.com
+              </a>
+              <a
+                className="list-group-item list-group-item-dark list-group-item-action"
+                href="https://github.com/Crowe828"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <i className="fa fa-github-square"></i> GitHub: Crowe828
+              </a>
+              <a
+                className="list-group-item list-group-item-dark list-group-item-action"
+                href="https://www.linkedin.com/in/christiantrowe/"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <i className="fab fa-linkedin"></i> LinkedIn: Christian Taylor
+                Rowe
+              </a>
+              <a
+                className="list-group-item list-group-item-dark list-group-item-action"
+                href="https://drive.google.com/file/d/1phzJFrAvhXYxH0q0E92uDeXaptUg2o9U/view?usp=sharing"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <i class="fas fa-file-alt"></i> Resume: Downloadable Edition
+              </a>
+            </div>
           </div>
-          <br />
-
-          <a
-            className="btn btn-lg contact-btn"
-            href="https://drive.google.com/file/d/1phzJFrAvhXYxH0q0E92uDeXaptUg2o9U/view?usp=sharing"
-            rel="noreferrer noopener"
-            target="_blank"
-            role="button"
-          >
-            Download Resume
-          </a>
         </div>
         <div className="col-md-6">
           <img className="ramen rounded" src={Ramen} alt="Ramen" />

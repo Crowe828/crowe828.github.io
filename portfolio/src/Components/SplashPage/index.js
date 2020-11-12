@@ -19,8 +19,8 @@ export default function SplashPage() {
           >
             Welcome.
           </div>
-          <Link to="/main" className="btn btn-lg splash-btn">
-            Enter.
+          <Link to="/main">
+            <button type="button" className="btn btn-lg btn-outline-success splash-btn">Enter.</button>
           </Link>
         </div>
       </h1>

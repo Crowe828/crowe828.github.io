@@ -21,18 +21,10 @@
 .splash-btn {
   margin-top: 20px;
   transition: all 0.2s ease-in-out;
-  color: #f2f2f7;
-  background-color: #ee6055;
-  border-radius: 10px 10px 10px 10px;
 }
 
 .splash-btn:hover {
   transform: scale(1.1);
-  background-color: #d1d1d6;
-}
-
-.splash-btn:active {
-  background-color: #c7c7cc;
 }
 
 .block-reveal {
