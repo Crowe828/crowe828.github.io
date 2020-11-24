@@ -8,6 +8,13 @@
 
 My portfolio has been fully developed using React. From my perspective, a portfolio is a "life-long" project. As I learn and grow as a developer, so will this portfolio.
 
+## Technologies used
+
+- React
+- ES6
+- CSS
+- Bootstrap
+
 ## Questions
 
 If you would like to learn more, feel free to check out my GitHub or send me an email anytime.
