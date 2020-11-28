@@ -1,0 +1,26 @@
+.contact {
+  font-family: "Rubik", sans-serif;
+}
+
+.my-heading {
+  font-weight: bold;
+  margin: 10px;
+}
+
+.contact-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contact-link {
+  color: rgb(242, 242, 247);
+}
+
+.contact-link:hover {
+  color: rgb(209, 209, 214);
+  text-decoration: none;
+}
+
+.contact-link:active {
+  color: rgb(199, 199, 204);
+}
