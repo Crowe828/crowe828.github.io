@@ -1,0 +1,14 @@
+.portfolio {
+  font-family: "Rubik", sans-serif;
+}
+
+.projects {
+  background-color: rgb(99, 99, 102);
+  color: rgb(242, 242, 247);
+  margin-bottom: 50px;
+}
+
+.heading {
+  font-weight: bold;
+  margin: 10px;
+}
