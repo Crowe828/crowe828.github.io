@@ -1,8 +1,6 @@
 # Portfolio
 
-## Deployment
-
-- [My website can be found here](https://crowe828.github.io/)
+- [My portfolio can be found here](https://crowe828.github.io/)
 
 ## Description
 
