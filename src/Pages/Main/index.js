@@ -4,6 +4,7 @@ import SplashPage from "../SplashPage";
 import Header from "../../Components/Header";
 import Nav from "../../Components/Nav";
 import About from "../../Components/About";
+import Skills from "../../Components/Skills";
 import AllProjects from "../../Components/AllProjects";
 import Contact from "../../Components/Contact";
 import Footer from "../../Components/Footer";
@@ -22,6 +23,7 @@ export default function Main() {
             <Nav />
             <div className="main-container">
               <About />
+              <Skills />
               <AllProjects />
               <Contact />
               <Footer />
