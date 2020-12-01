@@ -27,6 +27,14 @@ export default function Nav() {
           <div className="dropdown-menu">
             <a
               className="dropdown-item"
+              href="https://nipponmedia.herokuapp.com"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              Nippon Media
+            </a>
+            <a
+              className="dropdown-item"
               href="https://mega-awesome.herokuapp.com"
               rel="noreferrer noopener"
               target="_blank"

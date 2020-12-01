@@ -3,6 +3,7 @@ import Project from "../Project";
 import AlienTown from "./Images/alientown.png";
 import BurgerTime from "./Images/burgertime.png";
 import InkMap from "./Images/inkmap.png";
+import NipponMedia from "./Images/nipponmedia.png";
 import WeatherDashboard from "./Images/weather-dashboard.png";
 import WorkDayScheduler from "./Images/work-day-scheduler.png";
 import WorkerLibrary from "./Images/worker-library.png";
@@ -11,6 +12,15 @@ import "./style.css";
 const projects = [
   {
     id: 1,
+    name: "Nippon Media",
+    description:
+      "The premiere app to search, save, and track your favorite anime and manga.",
+    github: "https://github.com/Crowe828/nipponmedia",
+    appLink: "https://nipponmedia.herokuapp.com/",
+    img: NipponMedia,
+  },
+  {
+    id: 2,
     name: "Alien Town",
     description:
       "A web application built for conspiracy theorists and alien lovers alike.",
@@ -19,7 +29,7 @@ const projects = [
     img: AlienTown,
   },
   {
-    id: 2,
+    id: 3,
     name: "InkMap",
     description:
       "Inspiring your next tattoo. Showing you where to get it done.",
@@ -28,7 +38,7 @@ const projects = [
     img: InkMap,
   },
   {
-    id: 3,
+    id: 4,
     name: "BurgerTime",
     description: "Track your daily consumption of Burgers. Yes, really.",
     github: "https://github.com/Crowe828/burger",
@@ -36,7 +46,7 @@ const projects = [
     img: BurgerTime,
   },
   {
-    id: 4,
+    id: 5,
     name: "Weather Dashboard",
     description: "A simple weather experience.",
     github: "https://github.com/Crowe828/weather-dashboard",
@@ -44,7 +54,7 @@ const projects = [
     img: WeatherDashboard,
   },
   {
-    id: 5,
+    id: 6,
     name: "Work Day Scheduler",
     description: "A lite planner for your work day.",
     github: "https://github.com/Crowe828/work-day-scheduler",
@@ -52,7 +62,7 @@ const projects = [
     img: WorkDayScheduler,
   },
   {
-    id: 6,
+    id: 7,
     name: "Worker Library",
     description: "A semi-smart application to track all of your employees.",
     github: "https://github.com/Crowe828/worker-library",
