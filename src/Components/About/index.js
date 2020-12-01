@@ -17,9 +17,7 @@ export default function About() {
             My second is to create simple, understandable applications.
             <br />
             <br />
-            Facts about me: I have a collection of over 50 Rubik's Cubes and
-            host a podcast called "Bad Movie Journalists" where I discuss the
-            beauty in bad movies.
+            Fun Facts about me: I have a collection of over 50 Rubik's Cubes. I take my coffee black. I think React Hooks are far superior to React Components.
           </p>
         </div>
       </div>
