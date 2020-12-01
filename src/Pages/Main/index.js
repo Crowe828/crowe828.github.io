@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SplashPage from "../SplashPage";
-import Header from "../Header";
-import Nav from "../Nav";
-import About from "../About";
-import AllProjects from "../AllProjects";
-import Contact from "../Contact";
-import Footer from "../Footer";
+import Header from "../../Components/Header";
+import Nav from "../../Components/Nav";
+import About from "../../Components/About";
+import AllProjects from "../../Components/AllProjects";
+import Contact from "../../Components/Contact";
+import Footer from "../../Components/Footer";
 import "./style.css";
 
 export default function Main() {

@@ -23,7 +23,7 @@ const projects = [
     id: 2,
     name: "Alien Town",
     description:
-      "A web application built for conspiracy theorists and alien lovers alike.",
+      "Is Ancient Aliens one of your favorite shows? Then this one is for you.",
     github: "https://github.com/Crowe828/alientown",
     appLink: "https://mega-awesome.herokuapp.com",
     img: AlienTown,
@@ -39,6 +39,14 @@ const projects = [
   },
   {
     id: 4,
+    name: "Worker Library",
+    description: "A semi-smart application to track all of your employees.",
+    github: "https://github.com/Crowe828/worker-library",
+    appLink: "https://crowe828.github.io/worker-library",
+    img: WorkerLibrary,
+  },
+  {
+    id: 5,
     name: "BurgerTime",
     description: "Track your daily consumption of Burgers. Yes, really.",
     github: "https://github.com/Crowe828/burger",
@@ -46,7 +54,7 @@ const projects = [
     img: BurgerTime,
   },
   {
-    id: 5,
+    id: 6,
     name: "Weather Dashboard",
     description: "A simple weather experience.",
     github: "https://github.com/Crowe828/weather-dashboard",
@@ -54,20 +62,12 @@ const projects = [
     img: WeatherDashboard,
   },
   {
-    id: 6,
+    id: 7,
     name: "Work Day Scheduler",
     description: "A lite planner for your work day.",
     github: "https://github.com/Crowe828/work-day-scheduler",
     appLink: "https://crowe828.github.io/work-day-scheduler",
     img: WorkDayScheduler,
-  },
-  {
-    id: 7,
-    name: "Worker Library",
-    description: "A semi-smart application to track all of your employees.",
-    github: "https://github.com/Crowe828/worker-library",
-    appLink: "https://crowe828.github.io/worker-library",
-    img: WorkerLibrary,
   },
 ];
 
