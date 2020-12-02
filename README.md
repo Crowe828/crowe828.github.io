@@ -1,6 +1,8 @@
 # Portfolio
 
-- [Link to portfolio](https://crowe828.github.io/)
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+
+- [It can be found here.](https://crowe828.github.io/)
 
 ## Description
 
