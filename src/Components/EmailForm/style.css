@@ -1,0 +1,46 @@
+input {
+  width: 600px;
+}
+textarea {
+  height: 10em;
+  width: 600px;
+}
+
+div[role="alert"] {
+  color: red;
+  margin-top: 1em;
+}
+
+.contact {
+  background-color: rgb(99, 99, 102);
+  color: rgb(242, 242, 247);
+  margin-bottom: 50px;
+  font-family: "Rubik", sans-serif;
+}
+.form-header {
+  margin: 10px;
+  font-weight: bold;
+}
+
+.message-chars-left {
+  width: 600px;
+  margin: auto;
+  float: left;
+  opacity: 0.5;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.status-message {
+  opacity: 0;
+}
+.success {
+  opacity: 1;
+  color: green;
+}
+.failure {
+  opacity: 1;
+  color: red;
+}

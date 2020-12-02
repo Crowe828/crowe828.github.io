@@ -4,9 +4,9 @@ import Ramen from "./Images/ramen.jpeg";
 
 export default function Contact() {
   return (
-    <div className="container contact" id="contact">
+    <div className="container" id="contact">
       <div className="row">
-        <div className="col-md-6 about-me rounded">
+        <div className="col-md-6 contact rounded">
           <h1 className="my-heading">Let's Talk.</h1>
           <hr />
           <div className="contact-text">
