@@ -26,14 +26,34 @@ const EmailForm = () => {
           placeholder="Name"
         />
         <br />
+        {errors.user_email && errors.user_email.type === "required" && (
+          <div role="alert">
+            Email is required
+            <br />
+          </div>
+        )}
         <input
           type="email"
           name="user_email"
-          ref={register}
+          maxLength="30"
+          aria-invalid={errors.user_email ? "true" : "false"}
+          ref={register({ required: true })}
           placeholder="Email"
         />
         <br />
-        <textarea name="message" ref={register} placeholder="Message" />
+        {errors.message && errors.message.type === "required" && (
+          <div role="alert">
+            Message is required
+            <br />
+          </div>
+        )}
+        <textarea
+          name="message"
+          maxLength="30"
+          aria-invalid={errors.message ? "true" : "false"}
+          ref={register({ required: true })}
+          placeholder="Message"
+        />
         <br />
         <input type="submit" value="Send" />
       </form>
