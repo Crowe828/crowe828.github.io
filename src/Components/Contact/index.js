@@ -1,4 +1,5 @@
 import React from "react";
+import EmailForm from "../EmailForm"
 import "./style.css";
 import Ramen from "./Images/ramen.jpeg";
 
@@ -60,6 +61,7 @@ export default function Contact() {
           <img className="ramen rounded" src={Ramen} alt="Ramen" />
         </div>
       </div>
+      <EmailForm />
     </div>
   );
 }
