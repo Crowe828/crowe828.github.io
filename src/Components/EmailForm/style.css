@@ -16,3 +16,15 @@ div[role="alert"] {
   margin: auto;
   text-align: left;
 }
+
+.status-message {
+  opacity: 0;
+}
+.success {
+  opacity: 1;
+  color: green;
+}
+.failure {
+  opacity: 1;
+  color: red;
+}

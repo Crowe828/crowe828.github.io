@@ -6,6 +6,7 @@ import "./style.css";
 init("user_hFEfDrP7mPGJTWuXupG14");
 
 const EmailForm = () => {
+  const [statusMessage, setStatusMessage] = useState("Message");
   const [contactNumber, setContactNumber] = useState("000000");
 
   const generateContactNumber = () => {
@@ -15,6 +16,7 @@ const EmailForm = () => {
 
   const { register, handleSubmit, watch, errors } = useForm();
   const onSubmit = (data) => {
+    const statusMessage = document.querySelector(".status-message");
     const form = document.querySelector("#contact-form");
     generateContactNumber();
 
@@ -22,9 +24,19 @@ const EmailForm = () => {
       function (response) {
         console.log("success", response.status, response.text);
         form.reset();
+        setStatusMessage("Message sent!");
+        statusMessage.className = "status-message-success";
+        setTimeout(() => {
+          statusMessage.className = "status-message success";
+        }, 5000);
       },
       function (error) {
         console.log("Failed", error);
+        setStatusMessage("Failed to send message! Please try again later.");
+        statusMessage.className = "status-message failure";
+        setTimeout(() => {
+          statusMessage.className = "status-message";
+        }, 5000);
       }
     );
   };
@@ -35,6 +47,7 @@ const EmailForm = () => {
   return (
     <div className="contact">
       <h1>Contact</h1>
+      <p className="status-message">{statusMessage}</p>
       <form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
         <input type="hidden" name="contact_number" value={contactNumber} />
         {errors.user_name && errors.user_name.type === "required" && (
