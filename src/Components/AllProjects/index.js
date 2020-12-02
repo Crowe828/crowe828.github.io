@@ -14,7 +14,7 @@ const projects = [
     id: 1,
     name: "Nippon Media",
     description:
-      "The premiere app to search, save, and track your favorite anime and manga.",
+      "A web app that lets users to search and save their favorite anime and manga. This application uses an MVC model designed to allow users to create an account using React, React Hooks, React Components, Redux, RESTful APIs, AJAX, JSON, JWT, MongoDB, Mongoose, Express, Node, and CSS frameworks Material-UI and Semantic UI.",
     github: "https://github.com/Crowe828/nipponmedia",
     appLink: "https://nipponmedia.herokuapp.com/",
     img: NipponMedia,
@@ -23,7 +23,7 @@ const projects = [
     id: 2,
     name: "Alien Town",
     description:
-      "Is Ancient Aliens one of your favorite shows? Then this one is for you.",
+      "A web app designed for anyone interested in learning more about UFO sightings. Featuring a 30,000 record database that is searchable and can be updated. Technologies used include JavaScript ES6, MySQL, Node, Handlebars AJAX, and Bulma.io. This app features the Google Maps API to render coordinate-based data points, authorization, and full CRUD connected to a MySQL database.",
     github: "https://github.com/Crowe828/alientown",
     appLink: "https://mega-awesome.herokuapp.com",
     img: AlienTown,
@@ -32,7 +32,7 @@ const projects = [
     id: 3,
     name: "InkMap",
     description:
-      "Inspiring your next tattoo. Showing you where to get it done.",
+      "A web app that helps users find inspiration for their next tattoo and where to get it done. This application uses the Google Places and Unsplash APIs to render coordinate-based data points based on the user's location and display pictures based on the user's search. The markers on the map can be clicked on so that the user can learn more about each location. It was built using Axios, JavaScript, Bulma.io, and HTML5.",
     github: "https://github.com/Crowe828/inkmap",
     appLink: "https://crowe828.github.io/inkmap",
     img: InkMap,
@@ -76,7 +76,7 @@ export default function AllProjects() {
     <div className="container portfolio" id="portfolio">
       <div className="row">
         <div className="col projects rounded">
-          <h2 className="heading">Things I Make: A Portfolio.</h2>
+          <h1 className="heading">Things I Make: A Portfolio.</h1>
           <hr />
           <div className="container projects">
             <Project projects={projects} />

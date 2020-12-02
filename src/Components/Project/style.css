@@ -1,7 +1,12 @@
+.row {
+  margin-bottom: 25px;
+}
+
 .img-txt {
   color: rgb(242, 242, 247);
   font-size: 20px;
   text-align: center;
+  float: right;
   padding: 5px;
   width: 100%;
   bottom: 20px;
