@@ -1,16 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import * as emailjs from "emailjs-com";
+import { init, sendForm } from "emailjs-com";
 import "./style.css";
 
+init("user_hFEfDrP7mPGJTWuXupG14");
+
 const EmailForm = () => {
+  const [contactNumber, setContactNumber] = useState("000000");
+
+  const generateContactNumber = () => {
+    const numStr = "000000" + ((Math.random() * 1000000) | 0);
+    setContactNumber(numStr.substring(numStr.length - 6));
+  };
+
   const { register, handleSubmit, watch, errors } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) => {
+    console.log(data);
+    generateContactNumber();
+
+    sendForm("default_service", "template_r5n8c2l", "#contact-form").then(
+      function (response) {
+        console.log("success!", response.status, response.text);
+      },
+      function (error) {
+        console.log("Failed", error);
+      }
+    );
+  };
+
+  const message = watch("message") || "";
+  const messageCharsLeft = 1500 - message.length;
 
   return (
     <div className="contact">
       <h1>Contact</h1>
       <form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
+        <input type="hidden" name="contact_number" value={contactNumber} />
         {errors.user_name && errors.user_name.type === "required" && (
           <div role="alert">
             Name is required
@@ -49,13 +74,14 @@ const EmailForm = () => {
         )}
         <textarea
           name="message"
-          maxLength="30"
+          maxLength="1500"
           aria-invalid={errors.message ? "true" : "false"}
           ref={register({ required: true })}
           placeholder="Message"
         />
         <br />
         <input type="submit" value="Send" />
+        <p className="message-chars-left">{messageCharsLeft}</p>
       </form>
     </div>
   );
