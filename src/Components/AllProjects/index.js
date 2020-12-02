@@ -4,8 +4,8 @@ import AlienTown from "./Images/alientown.png";
 import BurgerTime from "./Images/burgertime.png";
 import InkMap from "./Images/inkmap.png";
 import NipponMedia from "./Images/nipponmedia.png";
-import WeatherDashboard from "./Images/weather-dashboard.png";
-import WorkDayScheduler from "./Images/work-day-scheduler.png";
+import NoteTaker from "./Images/note-taker.png";
+import FitTracker from "./Images/fit-tracker.png";
 import WorkerLibrary from "./Images/worker-library.png";
 import "./style.css";
 
@@ -40,40 +40,44 @@ const projects = [
   {
     id: 4,
     name: "Worker Library",
-    description: "A semi-smart application to track all of your employees.",
+    description:
+      "This application allows users to search through an employee database and filter users alphabetically. The search funtion filters data in real-time. This app was built using React, React Components, JavaScript ES6, CSS, and HTML5.",
     github: "https://github.com/Crowe828/worker-library",
     appLink: "https://crowe828.github.io/worker-library",
     img: WorkerLibrary,
   },
   {
     id: 5,
+    name: "Fit Buddy",
+    description:
+      "This application is used to track your workouts and give you your weekly stats! Enter in your activity, and it will populate into charts to display all of your effort. Let's get moving! This app was built using MongoDB, Mongoose, Express, Node, JavaScript, and CSS.",
+    github: "https://github.com/Crowe828/fit-tracker",
+    appLink: "https://peaceful-anchorage-10949.herokuapp.com",
+    img: FitTracker,
+  },
+  {
+    id: 6,
     name: "BurgerTime",
-    description: "Track your daily consumption of Burgers. Yes, really.",
+    description:
+      "Named after the famed Nintendo game, BurgerTime is an application that lets users input the names of burgers they'd like to eat as well as ones that they have previously eaten. Reach your burger consumption goals with BurgerTime! This application was built using MySQL, Express, Node, JavaScript, HTML, and CSS.",
     github: "https://github.com/Crowe828/burger",
     appLink: "https://shrouded-plateau-24290.herokuapp.com",
     img: BurgerTime,
   },
   {
-    id: 6,
-    name: "Weather Dashboard",
-    description: "A simple weather experience.",
-    github: "https://github.com/Crowe828/weather-dashboard",
-    appLink: "https://crowe828.github.io/weather-dashboard",
-    img: WeatherDashboard,
-  },
-  {
     id: 7,
-    name: "Work Day Scheduler",
-    description: "A lite planner for your work day.",
-    github: "https://github.com/Crowe828/work-day-scheduler",
-    appLink: "https://crowe828.github.io/work-day-scheduler",
-    img: WorkDayScheduler,
+    name: "Note Taker",
+    description:
+      "A simple web application that allows users to create, read, update, and delete notes. It was built using Express, Node, uuid, JavaScript, HTML, and CSS.",
+    github: "https://github.com/Crowe828/note-taker",
+    appLink: "https://dry-dawn-05181.herokuapp.com/notes",
+    img: NoteTaker,
   },
 ];
 
 export default function AllProjects() {
   return (
-    <div className="container portfolio" id="portfolio">
+    <div className="container portfolio" id="projects">
       <div className="row">
         <div className="col projects rounded">
           <h1 className="heading">Things I Make: A Portfolio.</h1>

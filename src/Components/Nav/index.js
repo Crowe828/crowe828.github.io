@@ -5,26 +5,26 @@ export default function Nav() {
   return (
     <nav className="navbar navbar-expand">
       <div className="navbar-nav navbar-menu container justify-content-center">
-        <a className="nav-link nav-btn" href="#about">
+        <a type="button" className="nav-link nav-btn" href="#about">
           About
         </a>
-        <a className="nav-link nav-btn" href="#contact">
+        <a type="button" className="nav-link nav-btn" href="#contact">
           Contact
         </a>
         <div className="btn-group nav-btn">
-          <a className="nav-link nav-btn" href="#portfolio">
-            Portfolio
+          <a type="button" className="nav-link nav-btn" href="#projects">
+            Projects
           </a>
           <button
             type="button"
-            className="btn dropdown-toggle dropdown-toggle-split"
+            className="dropdown-toggle dropdown-toggle-split"
             data-toggle="dropdown"
             aria-haspopup="true"
             aria-expanded="false"
           >
             <span className="sr-only">Toggle Dropdown</span>
           </button>
-          <div className="dropdown-menu">
+          <div className="dropdown-menu dropdown-menu-left">
             <a
               className="dropdown-item"
               href="https://nipponmedia.herokuapp.com"
@@ -59,6 +59,14 @@ export default function Nav() {
             </a>
             <a
               className="dropdown-item"
+              href="https://peaceful-anchorage-10949.herokuapp.com"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              Fit Buddy
+            </a>
+            <a
+              className="dropdown-item"
               href="https://shrouded-plateau-24290.herokuapp.com"
               rel="noreferrer noopener"
               target="_blank"
@@ -67,19 +75,11 @@ export default function Nav() {
             </a>
             <a
               className="dropdown-item"
-              href="https://crowe828.github.io/weather-dashboard"
+              href="https://dry-dawn-05181.herokuapp.com/notes"
               rel="noreferrer noopener"
               target="_blank"
             >
-              Weather Dashboard
-            </a>
-            <a
-              className="dropdown-item"
-              href="https://crowe828.github.io/work-day-scheduler"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
-              Work Day Scheduler
+              Note Taker
             </a>
           </div>
         </div>
