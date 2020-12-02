@@ -22,16 +22,14 @@ const EmailForm = () => {
 
     sendForm("default_service", "template_r5n8c2l", "#contact-form").then(
       function (response) {
-        console.log("success", response.status, response.text);
         form.reset();
         setStatusMessage("Message sent!");
-        statusMessage.className = "status-message-success";
+        statusMessage.className = "status-message success";
         setTimeout(() => {
-          statusMessage.className = "status-message success";
+          statusMessage.className = "status-message";
         }, 5000);
       },
       function (error) {
-        console.log("Failed", error);
         setStatusMessage("Failed to send message! Please try again later.");
         statusMessage.className = "status-message failure";
         setTimeout(() => {
@@ -45,64 +43,70 @@ const EmailForm = () => {
   const messageCharsLeft = 1500 - message.length;
 
   return (
-    <div className="contact">
-      <h1>Contact</h1>
-      <p className="status-message">{statusMessage}</p>
+    <div className="contact container rounded">
+      <div className="row" />
+      <h1 className="form-header">Send Me an Email.</h1>
+      <hr />
+
       <form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
-        <input type="hidden" name="contact_number" value={contactNumber} />
-        {errors.user_name && errors.user_name.type === "required" && (
-          <div role="alert">
-            Name is required
-            <br />
-          </div>
-        )}
-        <input
-          type="text"
-          name="user_name"
-          maxLength="30"
-          aria-invalid={errors.user_name ? "true" : "false"}
-          ref={register({ required: true })}
-          placeholder="Name"
-        />
-        <br />
-        {errors.user_email && errors.user_email.type === "required" && (
-          <div role="alert">
-            Email is required
-            <br />
-          </div>
-        )}
-        <input
-          type="email"
-          name="user_email"
-          maxLength="30"
-          aria-invalid={errors.user_email ? "true" : "false"}
-          ref={register({ required: true })}
-          placeholder="Email"
-        />
-        <br />
-        {errors.message && errors.message.type === "required" && (
-          <div role="alert">
-            Message is required
-            <br />
-          </div>
-        )}
-        <textarea
-          name="message"
-          maxLength="1500"
-          aria-invalid={errors.message ? "true" : "false"}
-          ref={register({ required: true })}
-          placeholder="Message"
-        />
-        <br />
-        <input type="submit" value="Send" />
-        <p className="message-chars-left">{messageCharsLeft}</p>
+        <div className="form-group">
+          <input type="hidden" name="contact_number" value={contactNumber} />
+          {errors.user_name && errors.user_name.type === "required" && (
+            <div role="alert">
+              "Name" is required.
+              <br />
+            </div>
+          )}
+          <input
+            className="form-group"
+            type="text"
+            name="user_name"
+            maxLength="30"
+            aria-invalid={errors.user_name ? "true" : "false"}
+            ref={register({ required: true })}
+            placeholder="Name"
+          />
+          <br />
+          {errors.user_email && errors.user_email.type === "required" && (
+            <div role="alert">
+              "Email" is required.
+              <br />
+            </div>
+          )}
+          <input
+            className="form-group"
+            type="email"
+            name="user_email"
+            maxLength="30"
+            aria-invalid={errors.user_email ? "true" : "false"}
+            ref={register({ required: true })}
+            placeholder="Email"
+          />
+          <br />
+          {errors.message && errors.message.type === "required" && (
+            <div role="alert">
+              You must write a message to send.
+              <br />
+            </div>
+          )}
+          <textarea
+            className="form-group"
+            name="message"
+            maxLength="1500"
+            aria-invalid={errors.message ? "true" : "false"}
+            ref={register({ required: true })}
+            placeholder="Wow, Christian, I'd love to work together!"
+          />
+          <br />
+          <input type="submit" value="Send." />
+          <p className="message-chars-left">
+            Characters left: {messageCharsLeft}
+          </p>
+          <p className="status-message">{statusMessage}</p>
+        </div>
       </form>
     </div>
   );
 };
 
 export default EmailForm;
-
-//         "service_a9qchwf",
-//         "template_r5n8c2l",
-//         "user_hFEfDrP7mPGJTWuXupG14"
