@@ -1,14 +1,15 @@
 # Portfolio
 
-- [My portfolio can be found here](https://crowe828.github.io/)
+- [Link to portfolio](https://crowe828.github.io/)
 
 ## Description
 
-My portfolio has been fully developed using React. From my perspective, a portfolio is a "life-long" project. As I learn and grow as a developer, so will this portfolio.
+My portfolio has been fully developed using React. It features several of my projects, and is a reflection of my skills as a developer. From my perspective, a portfolio is a "life-long" project. As I learn and grow as a developer, so will this portfolio.
 
 ## Technologies used
 
 - React
+- React-Hook-Form
 - ES6
 - CSS
 - Bootstrap
