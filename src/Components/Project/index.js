@@ -13,7 +13,9 @@ export default function Projects(props) {
               target="_blank"
               className="img-txt"
             >
-              <i className="fa fa-github-square"></i> {project.name}:{" "}
+              <h2 className="img-title">
+                <i className="fa fa-github-square"></i> {project.name}
+              </h2>
               {project.description}
             </a>
           </div>
