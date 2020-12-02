@@ -1,4 +1,3 @@
-
 input {
   width: 600px;
 }
@@ -26,7 +25,12 @@ div[role="alert"] {
 .message-chars-left {
   width: 600px;
   margin: auto;
-  text-align: left;
+  float: left;
+  opacity: 0.5;
+}
+
+.btn {
+  margin-top: 10px;
 }
 
 .status-message {

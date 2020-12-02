@@ -58,7 +58,7 @@ const EmailForm = () => {
             </div>
           )}
           <input
-            className="form-group"
+            className="form-control"
             type="text"
             name="user_name"
             maxLength="30"
@@ -74,7 +74,7 @@ const EmailForm = () => {
             </div>
           )}
           <input
-            className="form-group"
+            className="form-control"
             type="email"
             name="user_email"
             maxLength="30"
@@ -90,18 +90,21 @@ const EmailForm = () => {
             </div>
           )}
           <textarea
-            className="form-group"
+            className="form-control"
             name="message"
             maxLength="1500"
             aria-invalid={errors.message ? "true" : "false"}
             ref={register({ required: true })}
             placeholder="Wow, Christian, I'd love to work together!"
           />
-          <br />
-          <input type="submit" value="Send." />
           <p className="message-chars-left">
             Characters left: {messageCharsLeft}
           </p>
+          <br />
+          <button type="submit" className="btn btn-success btn-lg">
+            Send.
+          </button>
+
           <p className="status-message">{statusMessage}</p>
         </div>
       </form>
