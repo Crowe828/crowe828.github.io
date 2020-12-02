@@ -10,7 +10,7 @@ export default function About() {
           <img className="my-face rounded" src={MyFace} alt="My face" />
         </div>
         <div className="col-md-6 about-me rounded">
-          <h2 className="my-heading">Me: An Introduction.</h2>
+          <h1 className="my-heading">Me: An Introduction.</h1>
           <hr />
           <p className="about-me-text">
             I'm Christian. I'm a full stack web developer. I use a MERN stack.

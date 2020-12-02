@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <div className="container skills rounded">
       <div className="row" />
-      <h2 className="skills-header">Skills: The Best Ones.</h2>
+      <h1 className="skills-header">Skills: The Best Ones.</h1>
       <hr />
       <section className="bar-graph bar-graph-horizontal bar-graph-one">
         <div className="bar-one">
