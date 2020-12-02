@@ -15,12 +15,13 @@ const EmailForm = () => {
 
   const { register, handleSubmit, watch, errors } = useForm();
   const onSubmit = (data) => {
-    console.log(data);
+    const form = document.querySelector("#contact-form");
     generateContactNumber();
 
     sendForm("default_service", "template_r5n8c2l", "#contact-form").then(
       function (response) {
-        console.log("success!", response.status, response.text);
+        console.log("success", response.status, response.text);
+        form.reset();
       },
       function (error) {
         console.log("Failed", error);
