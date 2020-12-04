@@ -51,7 +51,7 @@ export default function Contact() {
                 rel="noreferrer noopener"
                 target="_blank"
               >
-                <i class="fas fa-file-alt"></i> Resume: Downloadable Edition
+                <i className="fas fa-file-alt"></i> Resume: Downloadable Edition
               </a>
             </div>
           </div>
