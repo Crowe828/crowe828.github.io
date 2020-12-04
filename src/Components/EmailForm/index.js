@@ -48,7 +48,7 @@ const EmailForm = () => {
       <h1 className="form-header">Contact Me Anytime.</h1>
       <hr />
       <div className="row forms">
-        <div className="col-md-6 col-lg-7 col-xl-8">
+        <div className="col">
           <p>
             Alternatively, feel free to email me from this convenient little
             box.
@@ -111,31 +111,13 @@ const EmailForm = () => {
                 Characters left: {messageCharsLeft}
               </p>
               <br />
-              <button type="submit" className="btn btn-success btn-lg">
+              <button type="submit" className="btn btn-success btn-lg rounded">
                 Send.
               </button>
 
               <p className="status-message">{statusMessage}</p>
             </div>
           </form>
-        </div>
-        <div className="col-md-6 col-lg-5 col-xl-4" align="center">
-          <div
-            className="LI-profile-badge"
-            data-version="v1"
-            data-size="large"
-            data-locale="en_US"
-            data-type="vertical"
-            data-theme="dark"
-            data-vanity="christiantrowe"
-          >
-            <a
-              className="LI-simple-link"
-              href="https://www.linkedin.com/in/christiantrowe?trk=profile-badge"
-            >
-              Christian Rowe
-            </a>
-          </div>
         </div>
       </div>
     </div>

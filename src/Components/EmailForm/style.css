@@ -16,7 +16,7 @@ div[role="alert"] {
 }
 
 .forms {
-  padding: 15px;
+  padding: 20px;
 }
 .message-chars-left {
   width: 600px;
@@ -41,8 +41,4 @@ div[role="alert"] {
 .failure {
   opacity: 1;
   color: red;
-}
-
-.LI-profile-badge {
-  margin-bottom: 30px;
 }
