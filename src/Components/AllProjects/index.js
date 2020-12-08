@@ -14,7 +14,7 @@ const projects = [
     id: 1,
     name: "Nippon Media",
     description:
-      "A web app that lets users to search and save their favorite anime and manga. This application uses an MVC model designed to allow users to create an account using React, React Hooks, React Components, Redux, RESTful APIs, AJAX, JSON, JWT, MongoDB, Mongoose, Express, Node, and CSS frameworks Material-UI and Semantic UI.",
+      "A web app that lets users search and save their favorite anime and manga. The app uses an MVC model that allows users to create an account using React, Redux, RESTful APIs, Axios, JSON, JWT, MongoDB, Mongoose, Express, Node, and the CSS frameworks Material-UI and Semantic UI.",
     github: "https://github.com/Crowe828/nipponmedia",
     appLink: "https://nipponmedia.herokuapp.com/",
     img: NipponMedia,
@@ -23,7 +23,7 @@ const projects = [
     id: 2,
     name: "Alien Town",
     description:
-      "A web app designed for anyone interested in learning more about UFO sightings. Featuring a 30,000 record database that is searchable and can be updated. Technologies used include JavaScript ES6, MySQL, Node, Handlebars AJAX, and Bulma.io. This app features the Google Maps API to render coordinate-based data points, authorization, and full CRUD connected to a MySQL database.",
+      "A web app designed for anyone interested in learning more about UFO sightings. Featuring a 30,000 record database that is searchable and can be updated. Sightings are listed on a map using the Google Maps API. Technologies used include JavaScript ES6, Handlebars, AJAX, Node, MySQL, and CSS framework Bulma.io.",
     github: "https://github.com/Crowe828/alientown",
     appLink: "https://mega-awesome.herokuapp.com",
     img: AlienTown,
@@ -32,7 +32,7 @@ const projects = [
     id: 3,
     name: "InkMap",
     description:
-      "A web app that helps users find inspiration for their next tattoo and where to get it done. This application uses the Google Places and Unsplash APIs to render coordinate-based data points based on the user's location and display pictures based on the user's search. The markers on the map can be clicked on so that the user can learn more about each location. It was built using Axios, JavaScript, Bulma.io, and HTML5.",
+      "A web app that helps users find ideas for their next tattoo and where to get it done. The app uses the Google Places API to display tattoo shops locally based on the user’s location, and it uses the Unsplash API to generate tattoo images based on the user’s search. Technologies used include JavaScript, Axios, HTML, and CSS framework Bulma.io.",
     github: "https://github.com/Crowe828/inkmap",
     appLink: "https://crowe828.github.io/inkmap",
     img: InkMap,
@@ -41,7 +41,7 @@ const projects = [
     id: 4,
     name: "Worker Library",
     description:
-      "This application allows users to search through an employee database and filter users alphabetically. The search funtion filters data in real-time. This app was built using React, React Components, JavaScript ES6, CSS, and HTML5.",
+      "This application allows users to search through an employee database and filter users alphabetically. The search funtion filters data in real-time. This app was built using React, React Components, JavaScript ES6, CSS, and HTML.",
     github: "https://github.com/Crowe828/worker-library",
     appLink: "https://crowe828.github.io/worker-library",
     img: WorkerLibrary,
