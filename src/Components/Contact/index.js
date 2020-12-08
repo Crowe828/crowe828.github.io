@@ -47,7 +47,7 @@ export default function Contact() {
               </a>
               <a
                 className="list-group-item list-group-item-dark list-group-item-action"
-                href="https://drive.google.com/file/d/11a39Lh9ExNnOG8kxVSeEF0Ck7HIxS3Dy/view?usp=sharing"
+                href="https://drive.google.com/file/d/1JdQIw2xY6qW6oKj2R4J_HG_vCqRduNf0/view?usp=sharing"
                 rel="noreferrer noopener"
                 target="_blank"
               >
