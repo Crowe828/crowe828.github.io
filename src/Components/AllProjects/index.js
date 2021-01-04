@@ -32,7 +32,7 @@ const projects = [
     id: 3,
     name: "InkMap",
     description:
-      "A web app that helps users find ideas for their next tattoo and where to get it done. The app uses the Google Places API to display tattoo shops locally based on the user’s location, and it uses the Unsplash API to generate tattoo images based on the user’s search. Technologies used include JavaScript, Axios, HTML, and CSS framework Bulma.io.",
+      "A web app that brings artists and art into one domain. Upon first visiting our app, users are shown a default search to display images of tattoos, and the addresses for local tattoo shops using the Foursquare API. Using the Unsplash API, users can search for tattoo ideas and they are dynamically rendered to the page. As of 2021, this application has been rebuilt using React!",
     github: "https://github.com/Crowe828/inkmap",
     appLink: "https://crowe828.github.io/inkmap",
     img: InkMap,
