@@ -19,7 +19,6 @@ div[role="alert"] {
   padding: 20px;
 }
 .message-chars-left {
-  width: 600px;
   margin: auto;
   float: left;
   opacity: 0.5;

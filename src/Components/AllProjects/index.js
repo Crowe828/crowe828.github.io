@@ -1,12 +1,11 @@
 import React from "react";
 import Project from "../Project";
-import AlienTown from "./Images/alientown.png";
-import BurgerTime from "./Images/burgertime.png";
-import InkMap from "./Images/inkmap.png";
-import NipponMedia from "./Images/nipponmedia.png";
-import NoteTaker from "./Images/note-taker.png";
-import FitTracker from "./Images/fit-tracker.png";
-import WorkerLibrary from "./Images/worker-library.png";
+import AlienTown from "./img/alientown.png";
+import InkMap from "./img/inkmap.png";
+import Instagram from "./img/instagram-lite.png";
+import NipponMedia from "./img/nipponmedia.png";
+import Spotify from "./img/spotify-mini.png";
+import WorkerLibrary from "./img/worker-library.png";
 import "./style.css";
 
 const projects = [
@@ -21,6 +20,33 @@ const projects = [
   },
   {
     id: 2,
+    name: "Instagram Lite",
+    description:
+      "Using the Instagram app is way overrated. Instead, I made my own. Welcome to Instagram lite, a web app built using React, Firebase, and Material-UI. It features Firebase authentication, hosting, and data storage.",
+    github: "https://github.com/Crowe828/instagram-lite",
+    appLink: "https://instagram-lite-62791.web.app/",
+    img: Instagram,
+  },
+  {
+    id: 3,
+    name: "Spotify Mini",
+    description:
+      "A Spotify web client to play all of your favorite songs. This app let's you login, play songs, pause, skip forward, and skip back. It is built using the Spotify Web API, authentication, React, Context-API, Material-UI, and Firebase hosting.",
+    github: "https://github.com/Crowe828/spotify-mini",
+    appLink: "https://spotify-mini.web.app/",
+    img: Spotify,
+  },
+  {
+    id: 4,
+    name: "InkMap",
+    description:
+      "A web app that brings artists and art into one domain. Upon first visiting our app, users are shown a default search to display images of tattoos, and the addresses for local tattoo shops using the Foursquare API. Using the Unsplash API, users can search for tattoo ideas and they are dynamically rendered to the page. As of 2021, this application has been rebuilt using React!",
+    github: "https://github.com/Crowe828/inkmap",
+    appLink: "https://crowe828.github.io/inkmap",
+    img: InkMap,
+  },
+  {
+    id: 5,
     name: "Alien Town",
     description:
       "A web app designed for anyone interested in learning more about UFO sightings. Featuring a 30,000 record database that is searchable and can be updated. Technologies used include JavaScript ES6, MySQL, Node, Handlebars AJAX, and Bulma.io. This app features the Google Maps API to render coordinate-based data points, authorization, and full CRUD connected to a MySQL database.",
@@ -29,49 +55,13 @@ const projects = [
     img: AlienTown,
   },
   {
-    id: 3,
-    name: "InkMap",
-    description:
-      "A web app that helps users find inspiration for their next tattoo and where to get it done. This application uses the Google Places and Unsplash APIs to render coordinate-based data points based on the user's location and display pictures based on the user's search. The markers on the map can be clicked on so that the user can learn more about each location. It was built using Axios, JavaScript, Bulma.io, and HTML5.",
-    github: "https://github.com/Crowe828/inkmap",
-    appLink: "https://crowe828.github.io/inkmap",
-    img: InkMap,
-  },
-  {
-    id: 4,
+    id: 6,
     name: "Worker Library",
     description:
       "This application allows users to search through an employee database and filter users alphabetically. The search funtion filters data in real-time. This app was built using React, React Components, JavaScript ES6, CSS, and HTML5.",
     github: "https://github.com/Crowe828/worker-library",
     appLink: "https://crowe828.github.io/worker-library",
     img: WorkerLibrary,
-  },
-  {
-    id: 5,
-    name: "Fit Buddy",
-    description:
-      "This application is used to track your workouts and give you your weekly stats! Enter in your activity, and it will populate into charts to display all of your effort. Let's get moving! This app was built using MongoDB, Mongoose, Express, Node, JavaScript, and CSS.",
-    github: "https://github.com/Crowe828/fit-tracker",
-    appLink: "https://peaceful-anchorage-10949.herokuapp.com",
-    img: FitTracker,
-  },
-  {
-    id: 6,
-    name: "BurgerTime",
-    description:
-      "Named after the famed Nintendo game, BurgerTime is an application that lets users input the names of burgers they'd like to eat as well as ones that they have previously eaten. Reach your burger consumption goals with BurgerTime! This application was built using MySQL, Express, Node, JavaScript, HTML, and CSS.",
-    github: "https://github.com/Crowe828/burger",
-    appLink: "https://shrouded-plateau-24290.herokuapp.com",
-    img: BurgerTime,
-  },
-  {
-    id: 7,
-    name: "Note Taker",
-    description:
-      "A simple web application that allows users to create, read, update, and delete notes. It was built using Express, Node, uuid, JavaScript, HTML, and CSS.",
-    github: "https://github.com/Crowe828/note-taker",
-    appLink: "https://dry-dawn-05181.herokuapp.com/notes",
-    img: NoteTaker,
   },
 ];
 

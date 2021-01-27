@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import MyFace from "./Images/me-bricks.jpeg";
+import MyFace from "./img/me-bricks.jpeg";
 
 export default function About() {
   return (

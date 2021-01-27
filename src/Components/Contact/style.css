@@ -16,3 +16,9 @@
   margin: 30px;
   font-size: 18px;
 }
+
+.ramen {
+  max-width: 100%;
+  max-height: auto;
+  margin-bottom: 50px;
+}

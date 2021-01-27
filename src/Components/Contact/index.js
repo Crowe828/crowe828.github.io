@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Ramen from "./Images/ramen.jpeg";
+import Ramen from "./img/ramen.jpeg";
 
 export default function Contact() {
   return (

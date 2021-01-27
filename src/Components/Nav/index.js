@@ -35,11 +35,19 @@ export default function Nav() {
             </a>
             <a
               className="dropdown-item"
-              href="https://mega-awesome.herokuapp.com"
+              href="https://instagram-lite-62791.web.app/"
               rel="noreferrer noopener"
               target="_blank"
             >
-              Alien Town
+              Instagram Lite
+            </a>
+            <a
+              className="dropdown-item"
+              href="https://spotify-mini.web.app/"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              Spotify Mini
             </a>
             <a
               className="dropdown-item"
@@ -51,35 +59,19 @@ export default function Nav() {
             </a>
             <a
               className="dropdown-item"
+              href="https://mega-awesome.herokuapp.com"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              Alien Town
+            </a>
+            <a
+              className="dropdown-item"
               href="https://crowe828.github.io/worker-library"
               rel="noreferrer noopener"
               target="_blank"
             >
               Worker Library
-            </a>
-            <a
-              className="dropdown-item"
-              href="https://peaceful-anchorage-10949.herokuapp.com"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
-              Fit Buddy
-            </a>
-            <a
-              className="dropdown-item"
-              href="https://shrouded-plateau-24290.herokuapp.com"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
-              BurgerTime
-            </a>
-            <a
-              className="dropdown-item"
-              href="https://dry-dawn-05181.herokuapp.com/notes"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
-              Note Taker
             </a>
           </div>
         </div>
