@@ -16,14 +16,13 @@ export default function About() {
             </h1>
             <hr />
             <p>
-              I'm Christian. I'm a full stack web developer. I use a MERN stack.
-              My first goal in life is to be on Double Dare: 2000. My second is
-              to create simple, understandable applications.
+              I'm Christian. I'm a web developer. My passion is developing apps
+              that people love using.
               <br />
               <br />
-              Fun Facts about me: I have a collection of over 50 Rubik's Cubes.
-              I take my coffee black. I think React Hooks are superior to React
-              Components.
+              Fun facts about me:
+              <br />I take my coffee black, and I love to run. I obsess over the
+              smallest details, which is why I find programming so fun.
             </p>
           </div>
         </div>

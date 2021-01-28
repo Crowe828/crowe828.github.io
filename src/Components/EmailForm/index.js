@@ -43,18 +43,15 @@ const EmailForm = () => {
   const messageCharsLeft = 1500 - message.length;
 
   return (
-    <div className="container rounded">
-      <div className="emailForm">
+    <div className="container">
+      <div className="emailForm rounded">
         <h1>
           <strong>Send Me an Email.</strong>
         </h1>
         <hr />
         <div className="row">
           <div className="col">
-            <p>
-              Alternatively, feel free to email me from this convenient little
-              box.
-            </p>
+            <p>Feel free to email me from this convenient little box.</p>
             <form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
               <div className="form-group">
                 <input

@@ -67,8 +67,8 @@ const projects = [
 
 export default function AllProjects() {
   return (
-    <div className="container rounded" id="projects">
-      <div className="allProjects">
+    <div className="container" id="projects">
+      <div className="allProjects rounded">
         <div className="row">
           <div className="col">
             <div className="projects">

@@ -1,58 +1,15 @@
-button {
-  border: none;
-  background-color: rgb(242, 242, 247);
-}
-
 .navbar {
-  width: 100%;
   background-color: rgb(242, 242, 247);
+  width: 100%;
 }
 
-button,
 .nav-btn {
   margin-left: 5px;
   margin-right: 5px;
   color: rgb(72, 72, 74);
 }
 
-button:hover,
 .nav-btn:hover {
   background-color: rgb(229, 229, 234);
-}
-
-button:active,
-.nav-btn:active {
-  background-color: rgb(209, 209, 214);
-}
-
-button:hover,
-button:active,
-.nav-btn:hover,
-.nav-btn:active {
   border-radius: 10px 10px 10px 10px;
-  color: rgb(72, 72, 74);
-}
-
-.dropdown-menu {
-  display: block;
-  visibility: hidden;
-  opacity: 0;
-  transform: translateY(50px);
-  transition: 0.5s ease all;
-}
-
-.dropdown-menu {
-  display: block;
-  visibility: hidden;
-  opacity: 0;
-  transform: translateY(50px);
-  transition: 0.5s ease all;
-}
-
-.dropdown-menu.show {
-  display: block;
-  visibility: visible;
-  opacity: 1;
-  transform: translateY(0px);
-  transition: 0.5s ease all;
 }
