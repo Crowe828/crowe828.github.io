@@ -6,7 +6,7 @@ import Instagram from "./img/instagram-lite.png";
 import NipponMedia from "./img/nipponmedia.png";
 import Spotify from "./img/spotify-mini.png";
 import WorkerLibrary from "./img/worker-library.png";
-import "./style.css";
+import "./AllProjects.css";
 
 const projects = [
   {
@@ -67,13 +67,17 @@ const projects = [
 
 export default function AllProjects() {
   return (
-    <div className="container portfolio" id="projects">
-      <div className="row">
-        <div className="col projects rounded">
-          <h1 className="heading">Things I Make: A Portfolio.</h1>
-          <hr />
-          <div className="container projects">
-            <Project projects={projects} />
+    <div className="container rounded" id="projects">
+      <div className="allProjects">
+        <div className="row">
+          <div className="col">
+            <div className="projects">
+              <h1>
+                <strong>Things I Make.</strong>
+              </h1>
+              <hr />
+              <Project projects={projects} />
+            </div>
           </div>
         </div>
       </div>

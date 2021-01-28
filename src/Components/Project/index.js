@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./Project.css";
 
 export default function Projects(props) {
   return (

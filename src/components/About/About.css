@@ -1,0 +1,15 @@
+.about {
+  color: rgb(242, 242, 247);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.about-me {
+  background-color: rgb(109, 109, 112);
+  padding: 30px;
+}
+
+.my-face {
+  max-width: 100%;
+  max-height: auto;
+}
