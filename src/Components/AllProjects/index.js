@@ -5,7 +5,7 @@ import InkMap from "./img/inkmap.png";
 import Instagram from "./img/instagram-lite.png";
 import NipponMedia from "./img/nipponmedia.png";
 import Spotify from "./img/spotify-mini.png";
-import WorkerLibrary from "./img/worker-library.png";
+import traveler from "./img/traveler.png";
 import "./AllProjects.css";
 
 const projects = [
@@ -47,21 +47,21 @@ const projects = [
   },
   {
     id: 5,
+    name: "Traveler",
+    description:
+      "This web app is designed to solve all of your traveling booking needs. This front end application is built using React, React Hooks, CSS, and JavaScript ES6. This application is hosted on AWS. ",
+    github: "https://github.com/Crowe828/worker-library",
+    appLink: "https://github.com/Crowe828/traveler",
+    img: traveler,
+  },
+  {
+    id: 6,
     name: "Alien Town",
     description:
       "A web app designed for anyone interested in learning more about UFO sightings. Featuring a 30,000 record database that is searchable and can be updated. Technologies used include JavaScript ES6, MySQL, Node, Handlebars AJAX, and Bulma.io. This app features the Google Maps API to render coordinate-based data points, authorization, and full CRUD connected to a MySQL database.",
     github: "https://github.com/Crowe828/alientown",
     appLink: "https://mega-awesome.herokuapp.com",
     img: AlienTown,
-  },
-  {
-    id: 6,
-    name: "Worker Library",
-    description:
-      "This application allows users to search through an employee database and filter users alphabetically. The search funtion filters data in real-time. This app was built using React, React Components, JavaScript ES6, CSS, and HTML5.",
-    github: "https://github.com/Crowe828/worker-library",
-    appLink: "https://crowe828.github.io/worker-library",
-    img: WorkerLibrary,
   },
 ];
 
