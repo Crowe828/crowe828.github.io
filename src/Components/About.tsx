@@ -1,14 +1,10 @@
 import React from "react";
-import "./About.css";
-import MyDrawing from "./img/me-drawing.jpeg";
+import "./about.css";
 
 export default function About() {
   return (
     <div className="about container" id="about">
       <div className="row">
-        <div className="col-md-6">
-          <img className="my-face rounded" src={MyDrawing} alt="My face" />
-        </div>
         <div className="col-md-6">
           <div className="about-me rounded">
             <h1>

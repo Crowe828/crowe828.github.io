@@ -1,8 +1,8 @@
 import React from "react";
-import Main from "./pages/Main";
-import SplashPage from "./pages/SplashPage";
+import Main from "./Main";
+import SplashPage from "./SplashPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./App.css"
+import "./app.css";
 
 function App() {
   return (

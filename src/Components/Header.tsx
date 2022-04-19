@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Header.css";
+import "./header.css";
 
-export default function Header() {
+const Header = () => {
   return (
     <header className="header">
       <Link to="/" className=" splash-return">
@@ -10,4 +10,6 @@ export default function Header() {
       </Link>
     </header>
   );
-}
+};
+
+export default Header;

@@ -1,6 +1,5 @@
 import React from "react";
-import "./Contact.css";
-import Ramen from "./img/ramen.jpeg";
+import "./contact.css";
 
 export default function Contact() {
   return (
@@ -47,9 +46,6 @@ export default function Contact() {
               </a>
             </div>
           </div>
-        </div>
-        <div className="col-md-6">
-          <img className="ramen rounded" src={Ramen} alt="Ramen" />
         </div>
       </div>
     </div>
