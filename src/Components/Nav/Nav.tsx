@@ -6,10 +6,12 @@ const Nav = () => {
   return (
     <div className="nav">
       <div className="row">
-        <div className="column">
+        {/* <div>
           <img src={Avataaar} alt="Avataaar" className="avataaar" />
+        </div> */}
+        <div>
+          <h1 className="name">Christian (Rowe).</h1>
         </div>
-        <div className="column">2</div>
       </div>
     </div>
   );
