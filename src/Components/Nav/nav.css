@@ -7,19 +7,20 @@
   padding: 0px 5px 0px 10px;
 }
 
-.avataaar {
+/* .avataaar {
   margin: 10px;
   height: 150px;
   width: 150px;
-}
+} */
 
 .name {
   margin: 10px 15px 10px 15px;
+  font-weight: bold;
 }
 
-@media (min-width: 40rem) {
+/* @media (min-width: 40rem) {
   .avataaar {
     height: 50px;
     width: 50px;
   }
-}
+} */

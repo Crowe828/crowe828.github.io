@@ -1,6 +1,6 @@
 import React from "react";
 import "./nav.css";
-import Avataaar from "../../img/avataaars.png";
+// import Avataaar from "../../img/avataaars.png";
 
 const Nav = () => {
   return (
