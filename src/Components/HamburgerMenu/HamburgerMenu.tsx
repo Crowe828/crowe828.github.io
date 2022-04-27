@@ -3,27 +3,53 @@ import { stack as Menu } from "react-burger-menu";
 import "./hamburgerMenu.css";
 
 const HamburgerMenu = () => {
-  const showSettings = (e: any) => {
-    e.preventDefault();
-  };
-
   return (
     <Menu right>
-      <a id="home" className="menu-item" href="/">
-        Home
-      </a>
-      <a id="about" className="menu-item" href="/about">
-        About
-      </a>
-      <a id="contact" className="menu-item" href="/contact">
-        Contact
+      <h2 className="title">let's talk.</h2>
+      <a
+        id="linkedin"
+        className="menu-item"
+        href="https://www.linkedin.com/in/christiantrowe/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        LinkedIn
       </a>
       <a
-        onClick={showSettings}
-        className="menu-item--small"
-        href="https://github.com/negomi/react-burger-menu#animations"
+        id="github"
+        className="menu-item"
+        href="https://github.com/Crowe828"
+        target="_blank"
+        rel="noopener noreferrer"
       >
-        Settings
+        GitHub
+      </a>
+      <a
+        id="resume"
+        className="menu-item"
+        href="https://docs.google.com/document/d/1AhIQjvdY0MZS8ccRyJUmRUCQKwVTCtu0/edit?usp=sharing&ouid=101625643380472302108&rtpof=true&sd=true"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Resume
+      </a>
+      <a
+        id="email"
+        className="menu-item"
+        href="mailto:crowe.dev@outlook.com?subject=Let's Work Together"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Email Me
+      </a>
+      <a
+        id="phone"
+        className="menu-item"
+        href="tel:407-758-9719"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Give Me a Call
       </a>
     </Menu>
   );

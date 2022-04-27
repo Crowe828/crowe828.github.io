@@ -45,9 +45,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 /* Morph shape necessary with bubble or elastic */
-/* .bm-morph-shape {
+.bm-morph-shape {
   fill: #373a47;
-} */
+}
 
 /* Wrapper for item list */
 .bm-item-list {
@@ -58,6 +58,19 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Individual item */
 .bm-item {
   display: inline-block;
+}
+
+.title {
+  color: darkgray;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+}
+
+.menu-item {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 5px;
+  color: #a594f9;
 }
 
 /* Styling of overlay */
