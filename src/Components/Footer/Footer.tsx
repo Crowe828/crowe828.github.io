@@ -1,7 +1,6 @@
 import React from "react";
 import "./footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMobileScreen } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
@@ -9,9 +8,6 @@ const Footer = () => {
     <div className="row row-footer">
       <div className="column">
         <span className="text-footer">Feel free to reach out anytime.</span>
-        <span className="text-footer">
-          <FontAwesomeIcon icon={faMobileScreen} /> (407) 758-9719
-        </span>
         <span className="text-footer">
           <FontAwesomeIcon icon={faEnvelopeOpenText} />{" "}
           <a
