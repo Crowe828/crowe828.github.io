@@ -1,0 +1,32 @@
+.row-skills {
+  padding: 20px;
+}
+
+.text-skills {
+  font-weight: bold;
+  font-size: 64px;
+}
+
+@media (min-width: 40rem) {
+  .text-skills {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 55rem) {
+  .text-skills {
+    font-size: 64px;
+  }
+}
+
+@media (min-width: 60rem) {
+  .text-skills {
+    font-size: 72px;
+  }
+}
+
+@media (min-width: 80rem) {
+  .text-skills {
+    font-size: 96px;
+  }
+}

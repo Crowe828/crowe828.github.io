@@ -2,51 +2,31 @@
   padding: 20px;
 }
 
-.text-about-1 {
+.text-about {
   font-weight: bold;
   font-size: 64px;
 }
 
-.text-about-2 {
-  font-weight: bold;
-}
-
 @media (min-width: 40rem) {
-  .text-about-1 {
+  .text-about {
     font-size: 48px;
-  }
-
-  .text-about-2 {
-    font-size: 36px;
   }
 }
 
 @media (min-width: 55rem) {
-  .text-about-1 {
+  .text-about {
     font-size: 64px;
-  }
-
-  .text-about-2 {
-    font-size: 48px;
   }
 }
 
 @media (min-width: 60rem) {
-  .text-about-1 {
+  .text-about {
     font-size: 72px;
-  }
-
-  .text-about-2 {
-    font-size: 64px;
   }
 }
 
 @media (min-width: 80rem) {
-  .text-about-1 {
+  .text-about {
     font-size: 96px;
-  }
-
-  .text-about-2 {
-    font-size: 72px;
   }
 }
