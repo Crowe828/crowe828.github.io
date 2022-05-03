@@ -1,33 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c18f8413.chunk.css",
-    "main.js": "/static/js/main.885f9325.chunk.js",
-    "main.js.map": "/static/js/main.885f9325.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.41516177.js",
-    "runtime-main.js.map": "/static/js/runtime-main.41516177.js.map",
-    "static/css/2.658248ec.chunk.css": "/static/css/2.658248ec.chunk.css",
-    "static/js/2.887635ce.chunk.js": "/static/js/2.887635ce.chunk.js",
-    "static/js/2.887635ce.chunk.js.map": "/static/js/2.887635ce.chunk.js.map",
-    "static/js/3.8a6f4b5a.chunk.js": "/static/js/3.8a6f4b5a.chunk.js",
-    "static/js/3.8a6f4b5a.chunk.js.map": "/static/js/3.8a6f4b5a.chunk.js.map",
+    "main.css": "/static/css/main.cc3da0ab.css",
+    "main.js": "/static/js/main.c8561270.js",
+    "static/js/787.8796dec8.chunk.js": "/static/js/787.8796dec8.chunk.js",
+    "static/media/womanAndMan.png": "/static/media/womanAndMan.22c17533c13138900d39.png",
+    "static/media/computerMan.png": "/static/media/computerMan.d7091aebef7872aa4a1b.png",
+    "static/media/avataaars.png": "/static/media/avataaars.cad5b17c80cbfdd6a217.png",
+    "static/media/glasses.png": "/static/media/glasses.976c511ec5f68cfd44ef.png",
     "index.html": "/index.html",
-    "static/css/2.658248ec.chunk.css.map": "/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.c18f8413.chunk.css.map": "/static/css/main.c18f8413.chunk.css.map",
-    "static/js/2.887635ce.chunk.js.LICENSE.txt": "/static/js/2.887635ce.chunk.js.LICENSE.txt",
-    "static/media/alientown.a3ecafc0.png": "/static/media/alientown.a3ecafc0.png",
-    "static/media/inkmap.08cdb2ef.png": "/static/media/inkmap.08cdb2ef.png",
-    "static/media/instagram-lite.ba85de85.png": "/static/media/instagram-lite.ba85de85.png",
-    "static/media/me-drawing.af22f801.jpeg": "/static/media/me-drawing.af22f801.jpeg",
-    "static/media/nipponmedia.cc60636e.png": "/static/media/nipponmedia.cc60636e.png",
-    "static/media/ramen.566d3f49.jpeg": "/static/media/ramen.566d3f49.jpeg",
-    "static/media/spotify-mini.b8c87582.png": "/static/media/spotify-mini.b8c87582.png",
-    "static/media/traveler.fffaf5c1.png": "/static/media/traveler.fffaf5c1.png"
+    "main.cc3da0ab.css.map": "/static/css/main.cc3da0ab.css.map",
+    "main.c8561270.js.map": "/static/js/main.c8561270.js.map",
+    "787.8796dec8.chunk.js.map": "/static/js/787.8796dec8.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.41516177.js",
-    "static/css/2.658248ec.chunk.css",
-    "static/js/2.887635ce.chunk.js",
-    "static/css/main.c18f8413.chunk.css",
-    "static/js/main.885f9325.chunk.js"
+    "static/css/main.cc3da0ab.css",
+    "static/js/main.c8561270.js"
   ]
 }
