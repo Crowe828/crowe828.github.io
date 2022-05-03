@@ -4,7 +4,7 @@ import "./skills.css";
 
 const Skills = () => {
   return (
-    <div className="row row-skills">
+    <div className="row">
       <div className="column">
         <img src={WomanAndMan} alt="Woman and Man" />
       </div>

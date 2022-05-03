@@ -1,9 +1,3 @@
-.row-intro {
-  padding: 100px 36px 36px 36px;
-  animation-duration: 1s;
-  animation-name: slideIn;
-}
-
 .column-intro {
   margin: 50px 0px 50px 0px;
 }
@@ -34,17 +28,5 @@
 @media (min-width: 80rem) {
   .text-intro {
     font-size: 96px;
-  }
-}
-
-@keyframes slideIn {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
   }
 }

@@ -3,7 +3,7 @@ import "./work.css";
 
 const Work = () => {
   return (
-    <div className="row row-work">
+    <div className="row">
       <div className="column">
         <h1>
           currently developing the front end of an internal application for

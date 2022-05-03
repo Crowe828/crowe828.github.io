@@ -1,9 +1,6 @@
 import React from "react";
+import RevealWrapper from "../../Components/Reveal/RevealWrapper";
 import Nav from "../../Components/Nav/Nav";
-import Intro from "../../Components/Intro/Intro";
-import About from "../../Components/About/About";
-import Skills from "../../Components/Skills/Skills";
-import Work from "../../Components/Work/Work";
 import Footer from "../../Components/Footer/Footer";
 import "./main.css";
 
@@ -11,10 +8,7 @@ const Main = () => {
   return (
     <div className="background">
       <Nav />
-      <Intro />
-      <About />
-      <Skills />
-      <Work />
+      <RevealWrapper />
       <Footer />
     </div>
   );

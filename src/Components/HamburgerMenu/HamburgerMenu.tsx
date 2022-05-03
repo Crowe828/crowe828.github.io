@@ -4,8 +4,8 @@ import "./hamburgerMenu.css";
 
 const HamburgerMenu = () => {
   return (
-    <Menu right>
-      <h2 className="title">let's talk.</h2>
+    <Menu right className="hamburgerMenu">
+      <h1 className="title">let's talk.</h1>
       <a
         id="linkedin"
         className="menu-item"

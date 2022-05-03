@@ -2,6 +2,9 @@
   background-color: #7371fc;
   color: #f5efff;
   width: 100%;
+  -webkit-box-shadow: 0 8px 6px -6px #616161;
+  -moz-box-shadow: 0 8px 6px -6px #616161;
+  box-shadow: 0 6px 5px -7px #616161;
 }
 
 .row {

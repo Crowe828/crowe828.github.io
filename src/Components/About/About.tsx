@@ -4,7 +4,7 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div className="row row-about">
+    <div className="row">
       <div className="column column-about">
         <h1 className="text-about">i like making apps that look pretty.</h1>
       </div>

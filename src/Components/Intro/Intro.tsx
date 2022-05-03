@@ -4,7 +4,7 @@ import "./intro.css";
 
 const Intro = () => {
   return (
-    <div className="row row-intro">
+    <div className="row">
       <div className="column">
         <img src={Glasses} alt="glasses" />
       </div>
