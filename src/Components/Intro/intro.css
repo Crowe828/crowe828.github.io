@@ -1,0 +1,32 @@
+.column-intro {
+  margin: 50px 0px 50px 0px;
+}
+
+.text-intro {
+  font-size: 72px;
+  font-weight: bold;
+}
+
+@media (min-width: 40rem) {
+  .text-intro {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 55rem) {
+  .text-intro {
+    font-size: 64px;
+  }
+}
+
+@media (min-width: 60rem) {
+  .text-intro {
+    font-size: 72px;
+  }
+}
+
+@media (min-width: 80rem) {
+  .text-intro {
+    font-size: 96px;
+  }
+}

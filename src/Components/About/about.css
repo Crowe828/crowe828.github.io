@@ -1,0 +1,28 @@
+.text-about {
+  font-weight: bold;
+  font-size: 64px;
+}
+
+@media (min-width: 40rem) {
+  .text-about {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 55rem) {
+  .text-about {
+    font-size: 64px;
+  }
+}
+
+@media (min-width: 60rem) {
+  .text-about {
+    font-size: 72px;
+  }
+}
+
+@media (min-width: 80rem) {
+  .text-about {
+    font-size: 96px;
+  }
+}
