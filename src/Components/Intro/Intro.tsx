@@ -1,4 +1,3 @@
-import React from "react";
 import Glasses from "../../img/glasses.png";
 import "./intro.css";
 

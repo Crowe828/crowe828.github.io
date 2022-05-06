@@ -24,13 +24,3 @@
   font-size: 46px;
   float: left;
 }
-
-@media (min-width: 40rem) {
-  .nav {
-    position: fixed;
-  }
-
-  /* .name {
-  font-size: 46px;
-} */
-}

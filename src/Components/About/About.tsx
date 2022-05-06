@@ -1,4 +1,3 @@
-import React from "react";
 import ComputerMan from "../../img/computerMan.png";
 import "./about.css";
 

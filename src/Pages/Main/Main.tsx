@@ -1,4 +1,3 @@
-import React from "react";
 import RevealWrapper from "../../Components/Reveal/RevealWrapper";
 import Nav from "../../Components/Nav/Nav";
 import Footer from "../../Components/Footer/Footer";
