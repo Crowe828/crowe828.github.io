@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, MutableRefObject } from "react";
+import { useState, useEffect, useRef, MutableRefObject } from "react";
 import { motion, useAnimation } from "framer-motion";
 import "./reveal.css";
 

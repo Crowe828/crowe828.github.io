@@ -1,4 +1,3 @@
-import React from "react";
 import "./work.css";
 
 const Work = () => {

@@ -1,4 +1,3 @@
-import React from "react";
 import Reveal from "./Reveal";
 import Intro from "../Intro/Intro";
 import About from "../About/About";
