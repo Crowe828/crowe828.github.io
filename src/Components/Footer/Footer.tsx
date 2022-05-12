@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <div className="row row-footer">
       <div className="column">
-        <span className="text-footer">Feel free to reach out anytime.</span>
-        <span className="text-footer">
+        <span className="text-footer">Reach out anytime.</span>
+        <span>
           <FontAwesomeIcon icon={faEnvelopeOpenText} />{" "}
           <a
             id="email"
