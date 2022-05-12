@@ -33,7 +33,7 @@ const Reveal = ({ children }: { children: any }) => {
   // Ref for the element that we want to detect whether on screen
   const ref: any = useRef<HTMLDivElement>();
   // Call the hook passing in ref and root margin
-  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, "-300px");
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, "-200px");
 
   useEffect(() => {
     if (onScreen) {

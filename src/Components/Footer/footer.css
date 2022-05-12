@@ -1,8 +1,11 @@
 .row-footer {
   background-color: #7371fc;
+  border-top: 1px solid #cdc1ff;
+  white-space: nowrap;
 }
 
 .text-footer {
   padding: 0px 5px 0px 5px;
   color: white;
+  display: inline-block;
 }
