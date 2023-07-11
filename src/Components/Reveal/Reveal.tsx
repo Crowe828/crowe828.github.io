@@ -9,6 +9,7 @@ function useOnScreen<T extends Element>(
   // State and setter for storing whether element is visible
   const [isIntersecting, setIntersecting] = useState<boolean>(false);
   useEffect(() => {
+    let currentRef = ref.current;
     const observer = new IntersectionObserver(
       ([entry]) => {
         // Update our state when observer callback fires
@@ -18,13 +19,13 @@ function useOnScreen<T extends Element>(
         rootMargin,
       }
     );
-    if (ref.current) {
-      observer.observe(ref.current);
+    if (currentRef) {
+      observer.observe(currentRef);
     }
     return () => {
-      observer.unobserve(ref.current);
+      observer.unobserve(currentRef);
     };
-  }, []); // Empty array ensures that effect is only run on mount and unmount
+  }, [ref, rootMargin]);
   return isIntersecting;
 }
 
