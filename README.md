@@ -2,4 +2,4 @@
 
 ## 2023 Portfolio
 
-# Built using React 18
+# Built using React 18 and TypeScript
