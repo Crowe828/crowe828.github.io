@@ -1,4 +1,5 @@
 .nav {
+  height: max-content;
   background-color: #7371fc;
   color: #f5efff;
   width: 100%;

@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <div className="row row-footer">
       <div className="column">
-        <span className="text-footer">Reach out anytime.</span>
+        <span className="text-footer">Feel free to reach out!</span>{" "}
         <span>
-          <FontAwesomeIcon icon={faEnvelopeOpenText} />{" "}
+          <FontAwesomeIcon icon={faEnvelopeOpenText} />
           <a
             id="email"
             className="text-footer"
