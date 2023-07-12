@@ -26,7 +26,7 @@ const HamburgerMenu = () => {
       <a
         id="resume"
         className="menu-item"
-        href="https://docs.google.com/document/d/1AhIQjvdY0MZS8ccRyJUmRUCQKwVTCtu0/edit?usp=sharing&ouid=101625643380472302108&rtpof=true&sd=true"
+        href="http://bit.ly/crowe-dev-resume"
         target="_blank"
         rel="noopener noreferrer"
       >

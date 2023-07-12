@@ -65,14 +65,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .title {
-  color: #b7b7b7;
+  color: #d4d4d4;
 }
 
 .menu-item {
   font-weight: bold;
   font-size: 24px;
   padding: 5px;
-  color: #5e548e;
+  color: #483993;
   border-bottom: 1px lightgray solid;
 }
 
