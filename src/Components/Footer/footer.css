@@ -1,8 +1,6 @@
 .row-footer {
   background-color: #7371fc;
-  /* border-top: 1px solid #cdc1ff; */
-  white-space: nowrap;
-  height: 75px;
+  padding-bottom: 20px;
   box-shadow: 5px 0 5px 0 #616161;
 }
 
