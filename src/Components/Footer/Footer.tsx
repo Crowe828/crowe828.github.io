@@ -5,10 +5,9 @@ import { faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
     <div className="row row-footer">
-      <div className="column">
-        <span className="text-footer">Feel free to reach out!</span>{" "}
+      <div className="column column-footer">
+        <span className="text-footer">Thank you for stopping by! </span>
         <span>
-          <FontAwesomeIcon icon={faEnvelopeOpenText} />
           <a
             id="email"
             className="text-footer"
@@ -16,7 +15,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            crowe.dev@outlook.com
+            <FontAwesomeIcon icon={faEnvelopeOpenText} /> crowe.dev@outlook.com
           </a>
         </span>
       </div>
