@@ -1,85 +1,25 @@
 .splash-page {
-  background-color: #3a3a3c;
-  height: 100%;
-  width: 100%;
-  position: fixed;
+  padding: 200px;
+  background-color: rgba(243, 204, 255, 0.478);
+  height: 100vh;
 }
 
-.splash-text {
-  object-fit: contain;
-  font-size: 54px;
-  width: 600px;
-  position: fixed;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  margin-top: -100px;
-  margin-left: -300px;
+#main-header {
+  font-size: 72px;
 }
 
-.splash-btn {
-  margin-top: 20px;
-  transition: all 0.2s ease-in-out;
+#sub-header {
+  font-size: 56px;
 }
 
-.splash-btn:hover {
-  transform: scale(1.1);
+#main-link {
+  height: max-content;
+  width: max-content;
 }
 
-.block-reveal {
-  --t: calc(var(--td) + var(--d));
-  color: transparent;
-  position: relative;
-  overflow: hidden;
-  animation: splashTextColor 5s var(--t) forwards;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
-
-.block-reveal::after {
-  content: "";
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: var(--bc);
-  animation: revealingIn var(--td) var(--d) forwards,
-    revealingOut var(--td) var(--t) forwards;
-}
-
-@keyframes splashTextColor {
-  0% {
-    color: #ee6055;
-  }
-  25% {
-    color: #60d394;
-  }
-  50% {
-    color: #aaf683;
-  }
-  75% {
-    color: #ffd97d;
-  }
-  100% {
-    color: #ff9b85;
-  }
-}
-
-@keyframes revealingIn {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 100%;
-  }
-}
-
-@keyframes revealingOut {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(100%);
-  }
+#main-button {
+  font-size: 32px;
+  height: 70px;
+  width: 250px;
+  border-radius: 15px;
 }
