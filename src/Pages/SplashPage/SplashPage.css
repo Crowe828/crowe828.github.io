@@ -1,15 +1,18 @@
 .splash-page {
   padding: 200px;
-  background-color: rgba(243, 204, 255, 0.478);
+  background-color: rgba(201, 169, 211, 0.478);
   height: 100vh;
+  backdrop-filter: blur(15px);
 }
 
 #main-header {
   font-size: 72px;
+  color: lightgray;
 }
 
 #sub-header {
   font-size: 56px;
+  color: lightgray;
 }
 
 #main-link {
@@ -22,4 +25,19 @@
   height: 70px;
   width: 250px;
   border-radius: 15px;
+  background-color: rgba(196, 149, 210, 0.478);
+  border-color: lightgray;
+}
+
+#main-button:hover {
+  background-color: rgba(166, 102, 184, 0.478);
+  height: 72px;
+  width: 252px;
+}
+
+#pipes-gif {
+  background-image: url("../../gif/pipes.gif");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: center;
 }
