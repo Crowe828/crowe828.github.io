@@ -1,0 +1,44 @@
+.splash-page {
+  padding-top: 25vh;
+  background-color: rgba(201, 169, 211, 0.478);
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(15px);
+}
+
+#main-header {
+  font-size: 72px;
+  color: lightgray;
+}
+
+#sub-header {
+  font-size: 56px;
+  color: lightgray;
+}
+
+#main-link {
+  height: max-content;
+  width: max-content;
+}
+
+#main-button {
+  font-size: 32px;
+  height: 70px;
+  width: 250px;
+  border-radius: 15px;
+  background-color: rgba(196, 149, 210, 0.478);
+  border-color: lightgray;
+}
+
+#main-button:hover {
+  background-color: rgba(166, 102, 184, 0.478);
+  height: 72px;
+  width: 252px;
+}
+
+#pipes-gif {
+  background-image: url("../../gif/pipes.gif");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-position: center;
+}
