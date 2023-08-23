@@ -36,6 +36,7 @@
   width: 252px;
 }
 
+/* The classic Windows Pipes screen saver */
 #pipes-gif {
   background-image: url("../../gif/pipes.gif");
   background-repeat: no-repeat;
