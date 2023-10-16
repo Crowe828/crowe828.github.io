@@ -9,7 +9,8 @@ const Skills = () => {
       </div>
       <div className="column column-skills">
         <h1 className="text-skills">
-          i mainly use React, TypeScript, and CSS.
+          I like when my components are scalable and reusable. I mainly use
+          React and TypeScript.
         </h1>
       </div>
     </div>

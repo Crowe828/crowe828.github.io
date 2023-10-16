@@ -7,6 +7,10 @@
   font-size: 64px;
 }
 
+#man-with-computer {
+  width: 625px;
+}
+
 @media (min-width: 40rem) {
   .text-about {
     font-size: 48px;

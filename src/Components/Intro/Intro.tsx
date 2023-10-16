@@ -9,9 +9,9 @@ const Intro = () => {
       </div>
       <div className="column column-intro">
         <h1 className="text-intro">
-          hi. <br />
-          i'm christian.
-          <br />i do computer stuff.
+          Hi. <br />
+          I'm Christian.
+          <br />I do computer stuff.
         </h1>
       </div>
     </div>
