@@ -1,4 +1,4 @@
-import ComputerMan from "../../img/computerMan.png";
+import ComputerMan from "../../img/computer-man.png";
 import "./about.css";
 
 const About = () => {

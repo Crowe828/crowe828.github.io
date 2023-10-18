@@ -1,4 +1,4 @@
-import WomanAndMan from "../../img/womanAndMan.png";
+import WomanAndMan from "../../img/woman-and-man.png";
 import "./skills.css";
 
 const Skills = () => {
