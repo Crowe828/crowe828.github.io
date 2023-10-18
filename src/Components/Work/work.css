@@ -2,6 +2,34 @@
   height: fit-content;
 }
 
+.personal-projects-title {
+  font-weight: bold;
+}
+
+.spotify-mini-title,
+.github-link {
+  color: white;
+}
+
+.spotify-mini-title:hover,
+.github-link:hover {
+  color: lightgray;
+}
+
+.spotify-mini-img {
+  width: 1000px;
+  border: 5px solid lightgray;
+  border-radius: 10px 10px 10px 10px;
+  transition: 0.05s ease-out;
+  -webkit-transition: 0.05s ease-out;
+}
+
+.spotify-mini-img:hover {
+  width: 985px;
+  transition: 0.05s ease-in;
+  -webkit-transition: 0.05s ease-in;
+}
+
 .text-work {
-  padding: 170px 80px 50px 80px;
+  padding: 200px 80px 100px 80px;
 }
