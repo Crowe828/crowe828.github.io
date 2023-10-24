@@ -6,17 +6,17 @@
   font-weight: bold;
 }
 
-.spotify-mini-title,
+.portfolio-title,
 .github-link {
   color: white;
 }
 
-.spotify-mini-title:hover,
+.portfolio-title:hover,
 .github-link:hover {
   color: lightgray;
 }
 
-.spotify-mini-img {
+.portfolio-img {
   width: 1000px;
   border: 5px solid lightgray;
   border-radius: 10px 10px 10px 10px;
@@ -24,7 +24,7 @@
   -webkit-transition: 0.05s ease-out;
 }
 
-.spotify-mini-img:hover {
+.portfolio-img:hover {
   width: 985px;
   transition: 0.05s ease-in;
   -webkit-transition: 0.05s ease-in;
